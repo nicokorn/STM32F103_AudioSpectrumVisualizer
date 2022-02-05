@@ -1,7 +1,7 @@
 D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\AudioVisualizerBar\BrowseInfo\Application\User\Src\main.pbi: \
   D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\..\Inc\microphone.h \
   D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\..\Inc\touch.h \
-  D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\..\Inc\equalizer.h \
+  D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\..\Inc\visualizer.h \
   D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\..\Inc\ws2812b.h \
   D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h \
   D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h \

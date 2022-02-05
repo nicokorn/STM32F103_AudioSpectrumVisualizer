@@ -9,7 +9,7 @@
 ///
 /// \version   1.0.0.0
 ///
-/// \date      01012022
+/// \date      05022022
 /// 
 /// \copyright Copyright (c) 2022 Nico Korn
 /// 
@@ -43,7 +43,7 @@
 
 // Include ********************************************************************
 #include "touch.h"
-#include "equalizer.h"
+#include "visualizer.h"
 
 // Private define *************************************************************
 
@@ -84,5 +84,5 @@ void touch_init( void )
 /// \return    none
 void touch_pressed( void )
 {
-   equalizer_nextEffect();
+   visualizer_nextEffect();
 }

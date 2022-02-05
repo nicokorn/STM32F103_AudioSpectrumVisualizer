@@ -21,7 +21,7 @@
 ///
 /// \version   1.0.0.0
 ///
-/// \date      01012022
+/// \date      05022022
 /// 
 /// \copyright Copyright (c) 2022 Nico Korn
 /// 
@@ -58,7 +58,7 @@
 #include <stdlib.h>
 #include "main.h"
 #include "ws2812b.h"
-#include "equalizer.h"
+#include "visualizer.h"
 #include "touch.h"
 #include "microphone.h"
 
@@ -100,8 +100,8 @@ void  SystemClock_Config(void);
    // init peripherals for using the ws2812b leds
    WS2812B_init();
    
-   // equalizer init
-   equalizer_init();
+   // visualizer init
+   visualizer_init();
    
 #ifdef EFFECT_TOUCH_BUTTON
    // init mode touch button
@@ -118,19 +118,19 @@ void  SystemClock_Config(void);
 
       // draw an display the frequency bars
       WS2812B_clearBuffer();
-      for(uint8_t bar=0; bar<NR_OF_COLS-1; bar++)
+      for(uint8_t bar=0; bar<NR_OF_COLS; bar++)
       {
          // convert adc value into led level
-         ledLevel = equalizer_convertDB( adcLevelFTT[2*bar+2] );
+         ledLevel = visualizer_convertDB( adcLevelFTT[bar+2] );
          
          // set and show led
-         equalizer_setLevelBar( bar, ledLevel );
+         visualizer_setLevelBar( bar, ledLevel );
       }
       // convert adc value into led level
-      ledLevel = equalizer_convertDB( adcLevelFTT[31] );
+      ledLevel = visualizer_convertDB( adcLevelFTT[31] );
       
       // set and show led
-      equalizer_setLevelBar( 15, ledLevel );
+      visualizer_setLevelBar( 15, ledLevel );
       WS2812B_sendBuffer();
       microphone_startAdc();
    }

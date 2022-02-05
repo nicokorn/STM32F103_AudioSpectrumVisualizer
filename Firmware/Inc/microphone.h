@@ -9,7 +9,7 @@
 ///
 /// \version   1.0.0.0
 ///
-/// \date      01012022
+/// \date      05022022
 /// 
 /// \copyright Copyright (c) 2022 Nico Korn
 /// 
@@ -65,7 +65,6 @@ typedef enum
 
 // Exported functions *********************************************************
 MICROPHONE_StatusTypeDef   microphone_init      ( void );
-uint32_t                   microphone_getAdc    ( void );
 uint16_t*                  microphone_ftt       ( void );
 MICROPHONE_StatusTypeDef   microphone_startAdc  ( void );
 #endif // __MICROPHONE_H

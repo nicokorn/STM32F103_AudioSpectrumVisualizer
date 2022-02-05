@@ -9,7 +9,7 @@
 ///
 /// \version   1.0.0.0
 ///
-/// \date      01012022
+/// \date      05022022
 /// 
 /// \copyright Copyright (c) 2022 Nico Korn
 /// 
@@ -75,7 +75,7 @@ DMA_HandleTypeDef DMA_Handle_ADC;
 static arm_rfft_fast_instance_f32 fft_handler;
 static float32_t fft_out[FFT_NUMBER_SAMPLES];
 static float32_t fft_in[FFT_NUMBER_SAMPLES];
-static uint16_t  fft_abs[FFT_NUMBER_SAMPLES/2];
+//static uint16_t  fft_abs[FFT_NUMBER_SAMPLES/2];
 static uint16_t  fft_db[FFT_NUMBER_SAMPLES/2];
 
 // Functions ******************************************************************
@@ -104,6 +104,7 @@ MICROPHONE_StatusTypeDef microphone_init( void )
      return MICROPHONE_ERROR;
    }
   
+   // adc calibration
    if( HAL_ADCEx_Calibration_Start(&ADC_Handle) != HAL_OK )
    {
       return MICROPHONE_ERROR;
@@ -256,51 +257,6 @@ static MICROPHONE_StatusTypeDef init_timer( void )
 }
 
 // ----------------------------------------------------------------------------
-/// \brief     Calculate averrage from samples. It's faster than square rooting
-///            and the difference is minor.
-///
-/// \param     none
-///
-/// \return    uint32_t adc value
-uint32_t microphone_getAdc( void )
-{
-   uint32_t averrage;
-   int16_t adcValue;
-   
-   while( adcValuesReady != SET );
-   adcValuesReady = RESET;
-
-   for( uint16_t i=0; i<ADC_BUFFER_SIZE; i++ )
-   {
-      // get adc value
-      adcValue = adcValues[i];
-      
-      // substract half of the resolution to have a zero line
-      adcValue -= 2048u;
-      
-      // sum up the absolute value
-      if( adcValue < 0 )
-      {
-         averrage += -1*adcValue;
-      }
-      else
-      {
-         averrage += adcValue;
-      }
-   }
-   
-   // divide the summed up value to have the averrage
-   averrage = averrage>>3; 
-   
-   if( averrage > 2048u )
-   {
-      averrage = 2048u;
-   }
-   
-   return averrage;
-}
-
-// ----------------------------------------------------------------------------
 /// \brief     ...
 ///
 /// \param     none
@@ -326,7 +282,7 @@ uint16_t* microphone_ftt( void )
       //fft_abs[i>>1] = (uint16_t)complexABS(fft_out[i], fft_out[i+1]);
       fft_db[i>>1] = (uint16_t)(20*log10f(complexABS(fft_out[i], fft_out[i+1]))); // 66 db is max
       
-      if( fft_db[i>>1] >= 65000 )
+      if( fft_db[i>>1] >= 50000 )
       {
          fft_db[i>>1] = 0;
       }
