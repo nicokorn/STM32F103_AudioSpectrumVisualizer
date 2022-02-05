@@ -1,3 +1,0 @@
-nico1
-LAPTOP-6MR90SE6 
-Sonntag, 23. Januar 2022  14:53:16

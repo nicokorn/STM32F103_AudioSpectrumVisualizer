@@ -178,6 +178,7 @@ void SysTick_Handler(void)
 /* please refer to the startup file (startup_stm32f1xx.s).                    */
 /******************************************************************************/
 
+#ifdef EFFECT_TOUCH_BUTTON
 void EXTI15_10_IRQHandler(void){
 	/* EXTI line interrupt detected */
 	if(__HAL_GPIO_EXTI_GET_IT(BUTTON_MODE_PIN) != RESET){
@@ -188,16 +189,7 @@ void EXTI15_10_IRQHandler(void){
       touch_pressed();
 	}
 }
-
-void EXTI1_IRQHandler(void){
-	/* EXTI line interrupt detected */
-	if(__HAL_GPIO_EXTI_GET_IT(MICROPHONE_DIGITAL_PIN) != RESET){
-		/* clear interrupt pending bits */
-		__HAL_GPIO_EXTI_CLEAR_IT(MICROPHONE_DIGITAL_PIN);
-		/* call callback */
-      touch_pressed();
-	}
-}
+#endif
 
 void ADC1_2_IRQHandler(void)
 {

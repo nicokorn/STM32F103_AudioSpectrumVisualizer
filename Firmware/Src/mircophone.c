@@ -43,21 +43,28 @@
 
 // Include ********************************************************************
 #include "microphone.h"
+#include "arm_math.h"
 
 // Private define *************************************************************
-#define ADC_BUFFER_SIZE          ( 8u )      // Size of array containing ADC converted values
+#define ADC_BUFFER_SIZE          ( 64u )     // Size of array containing ADC converted values
 #define SAMPLING_FREQUENCY       ( 8000u )   // 8 kHz
+#define FFT_NUMBER_SAMPLES       ADC_BUFFER_SIZE
 
 // Private types     **********************************************************
 
 // Private variables **********************************************************
 /* Variable containing ADC conversions results */
-static uint16_t                  adcValues[ADC_BUFFER_SIZE];
+static int16_t                   adcValues[ADC_BUFFER_SIZE];
 static volatile FlagStatus       adcValuesReady;
+//static const int16_t             adcTest[ADC_BUFFER_SIZE] = {2048,2448,2832,3186,3496,3751,3940,4057,4096,4057,3940,3751,3496,3186,2832,2448,
+//2048,1648,1264,910,600,345,156,39,0,39,156,345,600,910,1264,1648,2048,2448,2832,3186,3496,3751,3940,4057,4096,4057,3940,3751,3496,3186,2832,2448,
+//2048,1648,1264,910,600,345,156,39,0,39,156,345,600,910,1264,1648};
 
 // Private function prototypes ************************************************
 static MICROPHONE_StatusTypeDef  init_adc     ( void );
 static MICROPHONE_StatusTypeDef  init_timer   ( void );
+static MICROPHONE_StatusTypeDef  init_fft     ( void );
+static float32_t                 complexABS   ( float real, float compl );
 
 // Global variables ***********************************************************
 ADC_HandleTypeDef ADC_Handle;
@@ -65,6 +72,11 @@ TIM_HandleTypeDef TIM_Handle;
 DMA_HandleTypeDef DMA_Handle_ADC;
 
 // Private variables **********************************************************
+static arm_rfft_fast_instance_f32 fft_handler;
+static float32_t fft_out[FFT_NUMBER_SAMPLES];
+static float32_t fft_in[FFT_NUMBER_SAMPLES];
+static uint16_t  fft_abs[FFT_NUMBER_SAMPLES/2];
+static uint16_t  fft_db[FFT_NUMBER_SAMPLES/2];
 
 // Functions ******************************************************************
 // ----------------------------------------------------------------------------
@@ -75,6 +87,12 @@ DMA_HandleTypeDef DMA_Handle_ADC;
 /// \return    MICROPHONE_StatusTypeDef
 MICROPHONE_StatusTypeDef microphone_init( void )
 {   
+   // init fft
+   if( init_fft() != MICROPHONE_OK )
+   {
+     return MICROPHONE_ERROR;
+   }
+   
    // init peripherals
    if( init_adc() != MICROPHONE_OK )
    {
@@ -200,7 +218,7 @@ static MICROPHONE_StatusTypeDef init_adc( void )
 static MICROPHONE_StatusTypeDef init_timer( void )
 {
    TIM_MasterConfigTypeDef master_timer_config;
-   uint16_t                PrescalerValue;
+   static uint16_t         PrescalerValue;
    
    // TIM3 Periph clock enable
    __HAL_RCC_TIM3_CLK_ENABLE();
@@ -272,7 +290,7 @@ uint32_t microphone_getAdc( void )
    }
    
    // divide the summed up value to have the averrage
-   averrage = averrage>>2; // shift 3 would be correct, for more sensivity I divide with 4
+   averrage = averrage>>3; 
    
    if( averrage > 2048u )
    {
@@ -283,16 +301,102 @@ uint32_t microphone_getAdc( void )
 }
 
 // ----------------------------------------------------------------------------
-/// \brief     ADC conversion complete callback function.
-///            Since the timer triggered ADC is set to 8 kHz and has to do
-///            8 samples for completion 1 millisecond is needed:
-///            T_sample = 1/f = 1/8 kHz = 0.000125 s
-///            T_cplt = 8 * 0.000125 s = 0.001 s 
+/// \brief     ...
 ///
 /// \param     none
 ///
-/// \return    uint32_t adc value
+/// \return    uint16_t*
+uint16_t* microphone_ftt( void )
+{   
+   while( adcValuesReady != SET );
+   adcValuesReady = RESET;
+
+   for( uint16_t i=0; i<ADC_BUFFER_SIZE; i++ )
+   {
+      //fft_in[i] = (float32_t)(adcTest[i]-2048);
+      fft_in[i] = (float32_t)(adcValues[i]-2048);
+   }
+
+   // do ftt
+   arm_rfft_fast_f32(&fft_handler, fft_in, fft_out, 0);
+   
+   // mix the real and imaginary values of the fft output
+   for (size_t i = 0; i < FFT_NUMBER_SAMPLES ; i=i+2)
+   {
+      //fft_abs[i>>1] = (uint16_t)complexABS(fft_out[i], fft_out[i+1]);
+      fft_db[i>>1] = (uint16_t)(20*log10f(complexABS(fft_out[i], fft_out[i+1]))); // 66 db is max
+      
+      if( fft_db[i>>1] >= 65000 )
+      {
+         fft_db[i>>1] = 0;
+      }
+      
+      if( fft_db[i>>1] >= 55)
+      {
+         fft_db[i>>1] -= 55;
+      }
+      else
+      {
+         fft_db[i>>1] = 0; 
+      }
+   }
+   
+   return fft_db;
+}
+
+// ----------------------------------------------------------------------------
+/// \brief     ...
+///
+/// \param     none
+///
+/// \return    none
 void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc)
 {
+   HAL_ADC_Stop_DMA(hadc);
    adcValuesReady = SET;
+}
+
+// ----------------------------------------------------------------------------
+/// \brief     ...
+///
+/// \param     none
+///
+/// \return    MICROPHONE_StatusTypeDef
+static MICROPHONE_StatusTypeDef init_fft( void )
+{
+   arm_status fft_init_status = arm_rfft_fast_init_f32 (&fft_handler, FFT_NUMBER_SAMPLES);
+   if ( fft_init_status != ARM_MATH_SUCCESS )
+   {
+      return MICROPHONE_ERROR;
+   }
+   return MICROPHONE_OK;
+}
+
+// ----------------------------------------------------------------------------
+/// \brief     Calculate the absolute from complex as argument.
+///
+/// \param     [in]  float real
+/// \param     [in]  float compl
+///
+/// \return    float32_t
+static float32_t complexABS( float real, float compl )
+{
+  return sqrtf(real*real+compl*compl);
+}
+
+// ----------------------------------------------------------------------------
+/// \brief     Start adc.
+///
+/// \param     none
+///
+/// \return    MICROPHONE_StatusTypeDef
+MICROPHONE_StatusTypeDef microphone_startAdc( void )
+{
+   // Start ADC conversion with transfer by DMA
+   if( HAL_ADC_Start_DMA( &ADC_Handle, (uint32_t *)adcValues, ADC_BUFFER_SIZE ) != HAL_OK )
+   {
+      return MICROPHONE_ERROR;
+   }
+   
+   return MICROPHONE_OK;
 }

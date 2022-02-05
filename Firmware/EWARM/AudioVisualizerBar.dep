@@ -1,118 +1,214 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
     <fileVersion>5</fileVersion>
-    <fileChecksum>3829295158</fileChecksum>
+    <fileChecksum>3169432104</fileChecksum>
     <configuration>
         <name>AudioVisualizerBar</name>
         <outputs>
-            <file>$PROJ_DIR$\..\Inc\microphone.h</file>
-            <file>$PROJ_DIR$\..\Drivers\CMSIS\Include\cmsis_version.h</file>
-            <file>$PROJ_DIR$\stm32f103xb_flash.icf</file>
-            <file>$PROJ_DIR$\AudioVisualizerBar\Exe\AudioVisualizerBar.hex</file>
-            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\User\Src\stm32f1xx_hal_msp.o</file>
-            <file>$PROJ_DIR$\..\Drivers\CMSIS\Include\cmsis_compiler.h</file>
-            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal.o</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\User\Src\touch.o</file>
-            <file>$PROJ_DIR$\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h</file>
-            <file>$TOOLKIT_DIR$\lib\dl7M_tlf.a</file>
-            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
-            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\User\Src\mircophone.o</file>
-            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal_rcc.o</file>
-            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal_cortex.o</file>
-            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal_rcc_ex.o</file>
-            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\User\Src\ws2812b.o</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\aarch32\iccarm_builtin.h</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h</file>
-            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\User\Src\stm32f1xx_it.o</file>
-            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\startup_stm32f103xb.o.rsp</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h</file>
-            <file>$PROJ_DIR$\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h</file>
-            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\CMSIS\system_stm32f1xx.o</file>
-            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal_tim.o</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h</file>
-            <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
-            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal_dma.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h</file>
-            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal_adc.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h</file>
-            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal_tim_ex.o</file>
-            <file>$PROJ_DIR$\AudioVisualizerBar\Exe\AudioVisualizerBar.out</file>
-            <file>$PROJ_DIR$\..\Drivers\CMSIS\Include\cmsis_iccarm.h</file>
-            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal_pwr.o</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h</file>
-            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\startup_stm32f103xb.o</file>
+            <file>$PROJ_DIR$\..\Src\system_stm32f1xx.c</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_cfft_f32.c</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\User\Src\main.o</file>
             <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_cfft_radix4_init_f32.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
-            <file>$PROJ_DIR$\..\Drivers\CMSIS\Include\core_cm3.h</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal_cortex.o</file>
             <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h</file>
             <file>$PROJ_DIR$\AudioVisualizerBar\List\AudioVisualizerBar.map</file>
-            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal_adc_ex.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
-            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\User\Src\main.o</file>
-            <file>$PROJ_DIR$\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h</file>
             <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
-            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal_exti.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h</file>
-            <file>$PROJ_DIR$\..\Src\stm32f1xx_hal_msp.c</file>
-            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal_gpio_ex.o</file>
-            <file>$PROJ_DIR$\..\Inc\ws2812b.h</file>
-            <file>$PROJ_DIR$\..\Inc\touch.h</file>
-            <file>$PROJ_DIR$\..\Src\ws2812b.c</file>
-            <file>$PROJ_DIR$\..\Src\touch.c</file>
-            <file>$PROJ_DIR$\..\Src\mircophone.c</file>
-            <file>$PROJ_DIR$\..\Src\main.c</file>
-            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
-            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal_gpio.o</file>
-            <file>$PROJ_DIR$\..\Src\stm32f1xx_it.c</file>
-            <file>$PROJ_DIR$\..\Src\equalizer.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal_dma.o</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\Include\core_cm3.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal_adc.o</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal_tim_ex.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal_adc_ex.o</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Include\arm_const_structs.h</file>
             <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal_flash_ex.o</file>
             <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h</file>
-            <file>$PROJ_DIR$\..\Inc\stm32f1xx_it.h</file>
-            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal_flash.o</file>
-            <file>$PROJ_DIR$\..\Inc\stm32f1xx_hal_conf.h</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc.c</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc_ex.c</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c</file>
-            <file>$PROJ_DIR$\..\Src\system_stm32f1xx.c</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c</file>
-            <file>$PROJ_DIR$\..\Inc\equalizer.h</file>
-            <file>$PROJ_DIR$\startup_stm32f103xb.s</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal_exti.o</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\startup_stm32f103xb.o</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\Include\cmsis_iccarm.h</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_cfft_f32.o</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal_pwr.o</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Exe\AudioVisualizerBar.out</file>
             <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\User\Src\equalizer.o</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal_gpio.o</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_rfft_fast_init_f32.o</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_cfft_radix2_q15.o</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_cfft_radix4_init_q31.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_rfft_q15.o</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_cfft_q31.o</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_cfft_radix4_init_q15.o</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_rfft_fast_f32.o</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_cfft_radix2_f32.o</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_rfft_init_q31.o</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_cfft_radix2_init_f32.o</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_bitreversal2.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_cfft_radix4_f32.o</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_cfft_radix2_init_q15.o</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_rfft_f32.o</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_dct4_q15.o</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_bitreversal.o</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_rfft_init_q15.o</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_dct4_f32.o</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_cfft_q15.o</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal_flash.o</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_cfft_radix2_init_q31.o</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_cfft_radix4_q31.o</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_rfft_q31.o</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Include\arm_common_tables.h</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_bitreversal2.o.rsp</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Include\arm_math.h</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_dct4_init_q31.o</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal_gpio_ex.o</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_dct4_init_f32.o</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_cfft_radix4_q15.o</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_float_setup.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc_ex.h</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\User\Src\stm32f1xx_hal_msp.o</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Exe\AudioVisualizerBar.hex</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_dct4_init_q15.o</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\Include\cmsis_version.h</file>
+            <file>$PROJ_DIR$\stm32f103xb_flash.icf</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\Include\cmsis_compiler.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\User\Src\touch.o</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tlf.a</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\User\Src\mircophone.o</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\Include\core_cm0.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_cfft_radix2_q31.o</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal_rcc.o</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_rfft_init_f32.o</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal.o</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_cfft_radix8_f32.o</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_dct4_q31.o</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix2_init_q15.c</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix4_q31.c</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix2_q31.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c</file>
             <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c</file>
-            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c</file>
             <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_dct4_init_q15.c</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix2_init_q31.c</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix2_q15.c</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix2_init_f32.c</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_dct4_q15.c</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_dct4_q31.c</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_rfft_q15.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix8_f32.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\User\Src\ws2812b.o</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_cfft_q15.c</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_rfft_f32.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix4_init_q15.c</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_rfft_fast_f32.c</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_rfft_init_q15.c</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_dct4_init_f32.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc.c</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix2_f32.c</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix4_init_f32.c</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_cfft_q31.c</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix4_init_q31.c</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_dct4_f32.c</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_dct4_init_q31.c</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_rfft_q31.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_rfft_init_f32.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_rfft_fast_init_f32.c</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_rfft_init_q31.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc_ex.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix4_f32.c</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix4_q15.c</file>
+            <file>$PROJ_DIR$\..\Src\equalizer.c</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal_rcc_ex.o</file>
             <file>$PROJ_DIR$\..\Inc\main.h</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\startup_stm32f103xb.o.rsp</file>
+            <file>$PROJ_DIR$\..\Src\stm32f1xx_it.c</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\CMSIS\system_stm32f1xx.o</file>
+            <file>$PROJ_DIR$\..\Inc\stm32f1xx_it.h</file>
+            <file>$PROJ_DIR$\..\Src\stm32f1xx_hal_msp.c</file>
+            <file>$PROJ_DIR$\startup_stm32f103xb.s</file>
+            <file>$PROJ_DIR$\..\Src\main.c</file>
+            <file>$PROJ_DIR$\..\Inc\microphone.h</file>
+            <file>$PROJ_DIR$\..\Src\touch.c</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\User\Src\stm32f1xx_it.o</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_adc.h</file>
+            <file>$PROJ_DIR$\..\Inc\stm32f1xx_hal_conf.h</file>
+            <file>$PROJ_DIR$\..\Inc\touch.h</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal_tim.o</file>
+            <file>$PROJ_DIR$\..\Src\mircophone.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\aarch32\iccarm_builtin.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h</file>
+            <file>$PROJ_DIR$\..\Inc\ws2812b.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h</file>
+            <file>$PROJ_DIR$\..\Inc\equalizer.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h</file>
+            <file>$PROJ_DIR$\..\Src\ws2812b.c</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_bitreversal.c</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_bitreversal2.S</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\CommonTables\arm_common_tables.c</file>
+            <file>$PROJ_DIR$\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_common_tables.o</file>
         </outputs>
         <file>
-            <name>$PROJ_DIR$\AudioVisualizerBar\Exe\AudioVisualizerBar.hex</name>
+            <name>$PROJ_DIR$\..\Src\system_stm32f1xx.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150</file>
+                </tool>
+            </outputs>
             <inputs>
                 <tool>
-                    <name>OBJCOPY</name>
-                    <file> 43</file>
+                    <name>ICCARM</name>
+                    <file> 6 90 5 164 16 83 36 149 76 73 7 148 84 30 81 15 85 169 158 77 9 26 3 58 165 173 28 33 19 18 74 163 167 17 159</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_cfft_f32.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 31</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 6 90 5 41 75 164 42 83 22 36 149 76 65 67 84 30 81 89</file>
                 </tool>
             </inputs>
         </file>
@@ -121,142 +217,151 @@
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 54</file>
+                    <file> 10</file>
                 </tool>
                 <tool>
                     <name>OBJCOPY</name>
-                    <file> 3</file>
+                    <file> 79</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 14 32 71 59 2 29 6 39 55 18 34 60 78 75 72 64 45 17 19 30 42 49 94 57 16 4 24 9 20</file>
+                    <file> 87 14 68 11 82 150 56 50 31 60 44 47 49 53 62 39 91 52 4 45 40 72 63 95 175 59 71 80 69 55 96 54 46 38 93 57 48 43 64 94 20 23 8 13 27 61 25 37 70 32 92 144 161 21 29 35 2 88 78 157 86 115</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\Src\stm32f1xx_hal_msp.c</name>
+            <name>$PROJ_DIR$\AudioVisualizerBar\Exe\AudioVisualizerBar.hex</name>
+            <inputs>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 34</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix2_init_q15.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 4</file>
+                    <file> 53</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 51 8 47 22 56 11 40 35 15 10 58 27 5 44 1 52 12 26 28 7 53 76 50 81 31 23 46 62 41 38 13 21 37 48 100 79</file>
+                    <file> 6 90 5 41 75 164 42 83 22 36 149 76 65 67 84 30 81 89</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\Src\ws2812b.c</name>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix4_q31.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 20</file>
+                    <file> 63</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 51 8 47 22 56 11 40 35 15 10 58 27 5 44 1 52 12 26 28 7 53 76 50 81 31 23 46 62 41 38 13 21 37 48 79 65</file>
+                    <file> 6 90 5 41 75 164 42 83 22 36 149 76 67 84 30 81 89</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\Src\touch.c</name>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix2_q31.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 9</file>
+                    <file> 91</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 51 8 47 22 56 11 40 35 15 10 58 27 5 44 1 52 12 26 28 7 53 76 50 81 31 23 46 62 41 38 13 21 37 48 92 79 66</file>
+                    <file> 6 90 5 41 75 164 42 83 22 36 149 76 67 84 30 81 89</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\Src\mircophone.c</name>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 16</file>
+                    <file> 25</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 51 8 47 22 56 11 40 35 15 10 58 27 5 44 1 52 12 26 28 7 53 76 50 81 31 23 46 62 41 38 13 21 37 48 0 79</file>
+                    <file> 6 90 5 164 16 83 36 149 76 73 7 148 84 30 81 15 85 169 158 77 9 26 3 58 165 173 28 33 19 18 74 163 167 17 159</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\Src\main.c</name>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 57</file>
+                    <file> 32</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 51 8 47 61 22 56 11 33 36 40 35 15 10 58 27 5 44 1 52 12 26 28 7 53 76 50 81 31 23 46 62 41 38 13 21 37 48 92 100 0 79 66 65</file>
+                    <file> 6 90 5 164 16 83 36 149 76 73 7 148 84 30 81 15 85 169 158 77 9 26 3 58 165 173 28 33 19 18 74 163 167 17 159</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\Src\stm32f1xx_it.c</name>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 24</file>
+                    <file> 21</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 51 8 47 22 56 11 40 35 15 10 58 27 5 44 1 52 12 26 28 7 53 76 50 81 31 23 46 62 41 38 13 21 37 48 100 0 79 77 66</file>
+                    <file> 6 90 5 164 16 83 36 149 76 73 7 148 84 30 81 15 85 169 158 77 9 26 3 58 165 173 28 33 19 18 74 163 167 17 159</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\Src\equalizer.c</name>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_dct4_init_q15.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 94</file>
+                    <file> 80</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 51 8 47 22 56 11 40 35 15 10 58 27 5 44 1 52 12 26 28 7 53 76 50 81 31 23 46 62 41 38 13 21 37 48 92 79 65</file>
+                    <file> 6 90 5 41 75 164 42 83 22 36 149 76 67 84 30 81 89</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c</name>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix2_init_q31.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 6</file>
+                    <file> 62</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 51 8 47 22 56 11 40 35 15 10 58 27 5 44 1 52 12 26 28 7 53 76 50 81 31 23 46 62 41 38 13 21 37 48 79</file>
+                    <file> 6 90 5 41 75 164 42 83 22 36 149 76 65 67 84 30 81 89</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc.c</name>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix2_q15.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
@@ -266,12 +371,27 @@
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 51 8 47 22 56 11 40 35 15 10 58 27 5 44 1 52 12 26 28 7 53 76 50 81 31 23 46 62 41 38 13 21 37 48 79</file>
+                    <file> 6 90 5 41 75 164 42 83 22 36 149 76 67 84 30 81 89</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc_ex.c</name>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix2_init_f32.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 49</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 6 90 5 41 75 164 42 83 22 36 149 76 65 67 84 30 81 89</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_dct4_q15.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
@@ -281,42 +401,102 @@
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 51 8 47 22 56 11 40 35 15 10 58 27 5 44 1 52 12 26 28 7 53 76 50 81 31 23 46 62 41 38 13 21 37 48 79</file>
+                    <file> 6 90 5 41 75 164 42 83 22 36 149 76 67 84 30 81 89</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c</name>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_dct4_q31.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 18</file>
+                    <file> 96</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 51 8 47 22 56 11 40 35 15 10 58 27 5 44 1 52 12 26 28 7 53 76 50 81 31 23 46 62 41 38 13 21 37 48 79</file>
+                    <file> 6 90 5 41 75 164 42 83 22 36 149 76 67 84 30 81 89</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c</name>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_rfft_q15.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 34</file>
+                    <file> 43</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 51 8 47 22 56 11 40 35 15 10 58 27 5 44 1 52 12 26 28 7 53 76 50 81 31 23 46 62 41 38 13 21 37 48 79</file>
+                    <file> 6 90 5 41 75 164 42 83 22 36 149 76 67 84 30 81 89</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c</name>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 61</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 6 90 5 164 16 83 36 149 76 73 7 148 84 30 81 15 85 169 158 77 9 26 3 58 165 173 28 33 19 18 74 163 167 17 159</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 92</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 6 90 5 164 16 83 36 149 76 73 7 148 84 30 81 15 85 169 158 77 9 26 3 58 165 173 28 33 19 18 74 163 167 17 159</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix8_f32.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 95</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 6 90 5 41 75 164 42 83 22 36 149 76 67 84 30 81 89</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 144</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 6 90 5 164 16 83 36 149 76 73 7 148 84 30 81 15 85 169 158 77 9 26 3 58 165 173 28 33 19 18 74 163 167 17 159</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_cfft_q15.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
@@ -326,117 +506,42 @@
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 51 8 47 22 56 11 40 35 15 10 58 27 5 44 1 52 12 26 28 7 53 76 50 81 31 23 46 62 41 38 13 21 37 48 79</file>
+                    <file> 6 90 5 41 75 164 42 83 22 36 149 76 67 84 30 81 89</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\Src\system_stm32f1xx.c</name>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_rfft_f32.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 29</file>
+                    <file> 54</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 51 8 47 22 56 11 40 35 15 10 58 27 5 44 1 52 12 26 28 7 53 76 50 81 31 23 46 62 41 38 13 21 37 48 79</file>
+                    <file> 6 90 5 41 75 164 42 83 22 36 149 76 67 84 30 81 89</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c</name>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 75</file>
+                    <file> 8</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 51 8 47 22 56 11 40 35 15 10 58 27 5 44 1 52 12 26 28 7 53 76 50 81 31 23 46 62 41 38 13 21 37 48 79</file>
+                    <file> 6 90 5 164 16 83 36 149 76 73 7 148 84 30 81 15 85 169 158 77 9 26 3 58 165 173 28 33 19 18 74 163 167 17 159</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 72</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 51 8 47 22 56 11 40 35 15 10 58 27 5 44 1 52 12 26 28 7 53 76 50 81 31 23 46 62 41 38 13 21 37 48 79</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 17</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 51 8 47 22 56 11 40 35 15 10 58 27 5 44 1 52 12 26 28 7 53 76 50 81 31 23 46 62 41 38 13 21 37 48 79</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 19</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 51 8 47 22 56 11 40 35 15 10 58 27 5 44 1 52 12 26 28 7 53 76 50 81 31 23 46 62 41 38 13 21 37 48 79</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\startup_stm32f103xb.s</name>
-            <outputs>
-                <tool>
-                    <name>AARM</name>
-                    <file> 49</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>AARM</name>
-                    <file> 25</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 64</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 51 8 47 22 56 11 40 35 15 10 58 27 5 44 1 52 12 26 28 7 53 76 50 81 31 23 46 62 41 38 13 21 37 48 79</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c</name>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix4_init_q15.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
@@ -446,12 +551,387 @@
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 51 8 47 22 56 11 40 35 15 10 58 27 5 44 1 52 12 26 28 7 53 76 50 81 31 23 46 62 41 38 13 21 37 48 79</file>
+                    <file> 6 90 5 41 75 164 42 83 22 36 149 76 65 67 84 30 81 89</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c</name>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_rfft_fast_f32.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 46</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 6 90 5 41 75 164 42 83 22 36 149 76 67 84 30 81 89</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_rfft_init_q15.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 57</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 6 90 5 41 75 164 42 83 22 36 149 76 65 24 67 84 30 81 89</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_dct4_init_f32.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 71</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 6 90 5 41 75 164 42 83 22 36 149 76 67 84 30 81 89</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 20</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 6 90 5 164 16 83 36 149 76 73 7 148 84 30 81 15 85 169 158 77 9 26 3 58 165 173 28 33 19 18 74 163 167 17 159</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix2_f32.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 47</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 6 90 5 41 75 164 42 83 22 36 149 76 67 84 30 81 89</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix4_init_f32.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 4</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 6 90 5 41 75 164 42 83 22 36 149 76 65 67 84 30 81 89</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_cfft_q31.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 44</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 6 90 5 41 75 164 42 83 22 36 149 76 67 84 30 81 89</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix4_init_q31.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 40</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 6 90 5 41 75 164 42 83 22 36 149 76 65 67 84 30 81 89</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_dct4_f32.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 59</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 6 90 5 41 75 164 42 83 22 36 149 76 67 84 30 81 89</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_dct4_init_q31.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 69</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 6 90 5 41 75 164 42 83 22 36 149 76 67 84 30 81 89</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_rfft_q31.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 64</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 6 90 5 41 75 164 42 83 22 36 149 76 67 84 30 81 89</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 13</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 6 90 5 164 16 83 36 149 76 73 7 148 84 30 81 15 85 169 158 77 9 26 3 58 165 173 28 33 19 18 74 163 167 17 159</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 37</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 6 90 5 164 16 83 36 149 76 73 7 148 84 30 81 15 85 169 158 77 9 26 3 58 165 173 28 33 19 18 74 163 167 17 159</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_rfft_init_f32.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 93</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 6 90 5 41 75 164 42 83 22 36 149 76 67 84 30 81 89</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 161</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 6 90 5 164 16 83 36 149 76 73 7 148 84 30 81 15 85 169 158 77 9 26 3 58 165 173 28 33 19 18 74 163 167 17 159</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_rfft_fast_init_f32.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 38</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 6 90 5 41 75 164 42 83 22 36 149 76 65 67 84 30 81 89</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_rfft_init_q31.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 48</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 6 90 5 41 75 164 42 83 22 36 149 76 65 24 67 84 30 81 89</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 94</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 6 90 5 164 16 83 36 149 76 73 7 148 84 30 81 15 85 169 158 77 9 26 3 58 165 173 28 33 19 18 74 163 167 17 159</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 70</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 6 90 5 164 16 83 36 149 76 73 7 148 84 30 81 15 85 169 158 77 9 26 3 58 165 173 28 33 19 18 74 163 167 17 159</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 23</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 6 90 5 164 16 83 36 149 76 73 7 148 84 30 81 15 85 169 158 77 9 26 3 58 165 173 28 33 19 18 74 163 167 17 159</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 27</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 6 90 5 164 16 83 36 149 76 73 7 148 84 30 81 15 85 169 158 77 9 26 3 58 165 173 28 33 19 18 74 163 167 17 159</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix4_f32.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 52</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 6 90 5 41 75 164 42 83 22 36 149 76 67 84 30 81 89</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix4_q15.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 72</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 6 90 5 41 75 164 42 83 22 36 149 76 67 84 30 81 89</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\equalizer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 35</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 6 90 5 164 16 83 36 149 76 73 7 148 84 30 81 15 85 169 158 77 9 26 3 58 165 173 28 33 19 18 74 163 167 17 168 159 166</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\stm32f1xx_it.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 157</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 6 90 5 164 16 83 36 149 76 73 7 148 84 30 81 15 85 169 158 77 9 26 3 58 165 173 28 33 19 18 74 163 167 17 145 155 159 151 160</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\stm32f1xx_hal_msp.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
@@ -461,37 +941,112 @@
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 51 8 47 22 56 11 40 35 15 10 58 27 5 44 1 52 12 26 28 7 53 76 50 81 31 23 46 62 41 38 13 21 37 48 79</file>
+                    <file> 6 90 5 164 16 83 36 149 76 73 7 148 84 30 81 15 85 169 158 77 9 26 3 58 165 173 28 33 19 18 74 163 167 17 145 159</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c</name>
+            <name>$PROJ_DIR$\startup_stm32f103xb.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 29</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 146</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\main.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 30</file>
+                    <file> 2</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 51 8 47 22 56 11 40 35 15 10 58 27 5 44 1 52 12 26 28 7 53 76 50 81 31 23 46 62 41 38 13 21 37 48 79</file>
+                    <file> 6 90 5 51 164 16 83 103 12 36 149 76 73 7 148 84 30 81 15 85 169 158 77 9 26 3 58 165 173 28 33 19 18 74 163 167 17 168 145 155 159 160 166</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c</name>
+            <name>$PROJ_DIR$\..\Src\touch.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 42</file>
+                    <file> 86</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 51 8 47 22 56 11 40 35 15 10 58 27 5 44 1 52 12 26 28 7 53 76 50 81 31 23 46 62 41 38 13 21 37 48 79</file>
+                    <file> 6 90 5 164 16 83 36 149 76 73 7 148 84 30 81 15 85 169 158 77 9 26 3 58 165 173 28 33 19 18 74 163 167 17 168 159 160</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\mircophone.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 88</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 6 90 5 41 75 164 42 16 83 22 36 149 76 67 73 7 148 84 30 81 89 15 85 169 158 77 9 26 3 58 165 173 28 33 19 18 74 163 167 17 155 159</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\ws2812b.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 115</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 6 90 5 164 16 83 36 149 76 73 7 148 84 30 81 15 85 169 158 77 9 26 3 58 165 173 28 33 19 18 74 163 167 17 159 166</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_bitreversal.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 56</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 6 90 5 41 75 164 42 83 22 36 149 76 65 67 84 30 81 89</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_bitreversal2.S</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 50</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 66</file>
                 </tool>
             </inputs>
         </file>
@@ -500,20 +1055,227 @@
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 43 54</file>
+                    <file> 34 10</file>
                 </tool>
             </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\CommonTables\arm_common_tables.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 175</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 6 90 5 41 75 164 42 83 22 36 149 76 65 67 84 30 81 89</file>
+                </tool>
+            </inputs>
         </file>
         <forcedrebuild>
             <name>[MULTI_TOOL]</name>
             <tool>ILINK</tool>
         </forcedrebuild>
         <forcedrebuild>
+            <name>$PROJ_DIR$\..\Src\system_stm32f1xx.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_cfft_f32.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix2_init_q15.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix4_q31.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix2_q31.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_dct4_init_q15.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix2_init_q31.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix2_q15.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix2_init_f32.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_dct4_q15.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_dct4_q31.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_rfft_q15.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix8_f32.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_cfft_q15.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_rfft_f32.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix4_init_q15.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_rfft_fast_f32.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_rfft_init_q15.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_dct4_init_f32.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix2_f32.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix4_init_f32.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_cfft_q31.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix4_init_q31.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_dct4_f32.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_dct4_init_q31.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_rfft_q31.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_rfft_init_f32.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_rfft_fast_init_f32.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_rfft_init_q31.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc_ex.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix4_f32.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_cfft_radix4_q15.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Src\equalizer.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\Src\stm32f1xx_it.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
             <name>$PROJ_DIR$\..\Src\stm32f1xx_hal_msp.c</name>
             <tool>ICCARM</tool>
         </forcedrebuild>
         <forcedrebuild>
-            <name>$PROJ_DIR$\..\Src\ws2812b.c</name>
+            <name>$PROJ_DIR$\..\Src\main.c</name>
             <tool>ICCARM</tool>
         </forcedrebuild>
         <forcedrebuild>
@@ -525,79 +1287,11 @@
             <tool>ICCARM</tool>
         </forcedrebuild>
         <forcedrebuild>
-            <name>$PROJ_DIR$\..\Src\main.c</name>
+            <name>$PROJ_DIR$\..\Src\ws2812b.c</name>
             <tool>ICCARM</tool>
         </forcedrebuild>
         <forcedrebuild>
-            <name>$PROJ_DIR$\..\Src\stm32f1xx_it.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\..\Src\equalizer.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc_ex.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\..\Src\system_stm32f1xx.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c</name>
+            <name>$PROJ_DIR$\..\Drivers\CMSIS\DSP\Source\TransformFunctions\arm_bitreversal.c</name>
             <tool>ICCARM</tool>
         </forcedrebuild>
         <forcedrebuild>

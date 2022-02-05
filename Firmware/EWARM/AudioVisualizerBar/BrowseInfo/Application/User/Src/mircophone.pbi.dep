@@ -35,4 +35,10 @@ D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\AudioVisualizerBar\Brow
   D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM/../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h \
   D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM/../Drivers/STM32F1xx_HAL_Driver/Inc\stm32f1xx_hal_pwr.h \
   D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM/../Drivers/STM32F1xx_HAL_Driver/Inc\stm32f1xx_hal_tim.h \
-  D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM/../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
+  D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM/../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h \
+  D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\..\Drivers\CMSIS\DSP\Include\arm_math.h \
+  D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM/../Drivers/CMSIS/Include\core_cm0.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\string.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Product_string.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\math.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_float_setup.h

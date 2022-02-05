@@ -67,11 +67,15 @@
 /* Private typedef -----------------------------------------------------------*/
 
 /* Private define ------------------------------------------------------------*/
+// If you connect a touch button to gpio PB11 
+// for changing effects, uncomment the line below.
+/*#define EFFECT_TOUCH_BUTTON*/  
+                                 
 
 /* Private macro -------------------------------------------------------------*/
 
 /* Private variables ---------------------------------------------------------*/
-static uint32_t   adcLevel;
+static uint16_t*  adcLevelFTT;
 static uint8_t    ledLevel;
 
 /* Private function prototypes -----------------------------------------------*/
@@ -85,7 +89,7 @@ void  SystemClock_Config(void);
 /// \param     none
 ///
 /// \return    int
-int main( void )
+ int main( void )
 {
    // Reset of all peripherals, Initializes the Flash interface and the Systick.
    HAL_Init();
@@ -99,32 +103,36 @@ int main( void )
    // equalizer init
    equalizer_init();
    
+#ifdef EFFECT_TOUCH_BUTTON
    // init mode touch button
    touch_init();
+#endif
    
    // init microphone
    microphone_init();
    
    while (1)
    {
-      //// get averraged adc value
-      //adcLevel = microphone_getAdc();
-      //
-      //// convert adc value into led level
-      //ledLevel = equalizer_convert( adcLevel );
-      //
-      //// set and show led
-      //equalizer_setLevel( ledLevel );
-      for(uint8_t row=0; row<NR_OF_ROWS; row++)
+      // get ftt adc levels
+      adcLevelFTT = microphone_ftt();
+
+      // draw an display the frequency bars
+      WS2812B_clearBuffer();
+      for(uint8_t bar=0; bar<NR_OF_COLS-1; bar++)
       {
-         for(uint8_t col=0; col<NR_OF_COLS; col++)
-         {
-            WS2812B_clearBuffer();
-            equalizer_setPixel(col,row,0xff,0x00,0x00);
-            WS2812B_sendBuffer();
-            HAL_Delay(10);
-         }
+         // convert adc value into led level
+         ledLevel = equalizer_convertDB( adcLevelFTT[2*bar+2] );
+         
+         // set and show led
+         equalizer_setLevelBar( bar, ledLevel );
       }
+      // convert adc value into led level
+      ledLevel = equalizer_convertDB( adcLevelFTT[31] );
+      
+      // set and show led
+      equalizer_setLevelBar( 15, ledLevel );
+      WS2812B_sendBuffer();
+      microphone_startAdc();
    }
 }
 

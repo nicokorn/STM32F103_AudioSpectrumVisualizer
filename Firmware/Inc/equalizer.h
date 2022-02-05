@@ -55,26 +55,6 @@
 // Exported types *************************************************************
 typedef enum
 {
-   BAR_40,   
-   BAR_80,   
-   BAR_160,  
-   BAR_240,  
-   BAR_320,  
-   BAR_400,  
-   BAR_600,  
-   BAR_800,  
-   BAR_1000,  
-   BAR_1400,  
-   BAR_1800, 
-   BAR_2200, 
-   BAR_2600, 
-   BAR_3000, 
-   BAR_3500, 
-   BAR_4000    
-} BAR_StatusTypeDef;
-
-typedef enum
-{
    EQUALIZER_OK       = 0x00U,
    EQUALIZER_ERROR    = 0x01U,
    EQUALIZER_BUSY     = 0x02U,
@@ -85,9 +65,9 @@ typedef enum
 
 // Exported functions *********************************************************
 EQUALIZER_StatusTypeDef    equalizer_init          ( void );
-void                       equalizer_setLevel      ( uint8_t level );
 void                       equalizer_nextEffect    ( void );
-uint8_t                    equalizer_convert       ( uint32_t adcValue );
-void                       equalizer_setLevelBar   ( BAR_StatusTypeDef bar, uint8_t level );
+uint8_t                    equalizer_convertABS    ( uint32_t adcValue );
+void                       equalizer_setLevelBar   ( uint8_t bar, uint8_t level );
 void                       equalizer_setPixel      ( uint8_t x, uint8_t y, uint8_t red, uint8_t green, uint8_t blue );
+uint8_t                    equalizer_convertDB     ( uint32_t dbValue );
 #endif // __EQUALIZER_H

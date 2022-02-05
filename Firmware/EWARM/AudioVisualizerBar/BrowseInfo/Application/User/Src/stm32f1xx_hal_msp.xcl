@@ -21,6 +21,8 @@ D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM/../Drivers/CMSIS/Device
 -I
 D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM/../Drivers/CMSIS/Include
 -I
+D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\..\Drivers\CMSIS\DSP\Include
+-I
 C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\inc\c\aarch32
 -I
 C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\inc
@@ -36,6 +38,8 @@ D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\Drivers\STM32F1xx_HAL_Driver\
 D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\Drivers\CMSIS\Device\ST\STM32F1xx\Include
 -I
 D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\Drivers\CMSIS\Include
+-I
+D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\Drivers\CMSIS\DSP\Include
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0
@@ -320,6 +324,7 @@ D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\Drivers\CMSIS\Include
 -D__EDG_INT128_EXTENSIONS_ALLOWED=0
 -DUSE_HAL_DRIVER=1
 -DSTM32F103xB=1
+-DARM_MATH_CM0=1
 -D_DLIB_CONFIG_FILE_HEADER_NAME="C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\inc\c\DLib_Config_Full.h"
 -D_DLIB_CONFIG_FILE_STRING="C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Config_Full.h"
 -D__VERSION__="IAR ANSI C/C++ Compiler V9.10.1.308/W64 for ARM"

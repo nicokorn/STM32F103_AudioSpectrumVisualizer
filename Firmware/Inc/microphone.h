@@ -64,7 +64,8 @@ typedef enum
 } MICROPHONE_StatusTypeDef;
 
 // Exported functions *********************************************************
-MICROPHONE_StatusTypeDef   microphone_init   ( void );
-uint32_t                   microphone_getAdc ( void );
-
+MICROPHONE_StatusTypeDef   microphone_init      ( void );
+uint32_t                   microphone_getAdc    ( void );
+uint16_t*                  microphone_ftt       ( void );
+MICROPHONE_StatusTypeDef   microphone_startAdc  ( void );
 #endif // __MICROPHONE_H

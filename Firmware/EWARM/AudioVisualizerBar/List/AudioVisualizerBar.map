@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V9.10.1.308/W64 for ARM                  24/Jan/2022  23:03:14
+# IAR ELF Linker V9.10.1.308/W64 for ARM                  05/Feb/2022  14:01:45
 # Copyright 2007-2021 IAR Systems AB.
 #
 #    Output file  =
@@ -10,7 +10,40 @@
 #    Command line =
 #        -f
 #        D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\AudioVisualizerBar\Exe\AudioVisualizerBar.out.rsp
-#        (D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\AudioVisualizerBar\Obj\Application\User\Src\equalizer.o
+#        (D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_bitreversal.o
+#        D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_bitreversal2.o
+#        D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_cfft_f32.o
+#        D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_cfft_q15.o
+#        D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_cfft_q31.o
+#        D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_cfft_radix2_f32.o
+#        D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_cfft_radix2_init_f32.o
+#        D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_cfft_radix2_init_q15.o
+#        D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_cfft_radix2_init_q31.o
+#        D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_cfft_radix2_q15.o
+#        D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_cfft_radix2_q31.o
+#        D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_cfft_radix4_f32.o
+#        D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_cfft_radix4_init_f32.o
+#        D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_cfft_radix4_init_q15.o
+#        D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_cfft_radix4_init_q31.o
+#        D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_cfft_radix4_q15.o
+#        D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_cfft_radix4_q31.o
+#        D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_cfft_radix8_f32.o
+#        D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_common_tables.o
+#        D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_dct4_f32.o
+#        D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_dct4_init_f32.o
+#        D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_dct4_init_q15.o
+#        D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_dct4_init_q31.o
+#        D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_dct4_q15.o
+#        D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_dct4_q31.o
+#        D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_rfft_f32.o
+#        D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_rfft_fast_f32.o
+#        D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_rfft_fast_init_f32.o
+#        D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_rfft_init_f32.o
+#        D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_rfft_init_q15.o
+#        D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_rfft_init_q31.o
+#        D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_rfft_q15.o
+#        D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH\arm_rfft_q31.o
+#        D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\AudioVisualizerBar\Obj\Application\User\Src\equalizer.o
 #        D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\AudioVisualizerBar\Obj\Application\User\Src\main.o
 #        D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\AudioVisualizerBar\Obj\Application\User\Src\mircophone.o
 #        D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\AudioVisualizerBar\Obj\Application\EWARM\startup_stm32f103xb.o
@@ -82,135 +115,172 @@ initialize by copy { rw };
   .intvec            ro code   0x800'0000    0xec  startup_stm32f103xb.o [1]
                              - 0x800'00ec    0xec
 
-"P1":                                      0x2cce
-  .text              ro code   0x800'00ec   0x6f0  stm32f1xx_hal_rcc.o [3]
-  .text              ro code   0x800'07dc     0xc  stm32f1xx_hal.o [3]
-  .text              ro code   0x800'07e8    0x4c  stm32f1xx_hal.o [3]
-  .text              ro code   0x800'0834    0x86  ABImemcpy.o [7]
-  .text              ro code   0x800'08ba    0x3a  packbits_init_single.o [7]
-  .text              ro code   0x800'08f4   0x184  stm32f1xx_hal_cortex.o [3]
-  .text              ro code   0x800'0a78   0x672  stm32f1xx_hal_adc.o [3]
-  .text              ro code   0x800'10ea     0x2  stm32f1xx_hal_adc.o [3]
-  .text              ro code   0x800'10ec   0x314  stm32f1xx_hal_dma.o [3]
-  .text              ro code   0x800'1400   0x270  mircophone.o [4]
-  .text              ro code   0x800'1670     0x2  stm32f1xx_hal_adc_ex.o [3]
-  .text              ro code   0x800'1672     0x2  stm32f1xx_hal_adc.o [3]
-  .text              ro code   0x800'1674     0x2  stm32f1xx_hal_adc.o [3]
-  .text              ro code   0x800'1676     0x2  stm32f1xx_hal_adc.o [3]
-  .text              ro code   0x800'1678    0xf0  stm32f1xx_hal_adc_ex.o [3]
-  .text              ro code   0x800'1768   0x33c  stm32f1xx_hal_tim.o [3]
-  .text              ro code   0x800'1aa4    0x14  memset.o [7]
-  .text              ro code   0x800'1ab8   0x268  stm32f1xx_hal_gpio.o [3]
-  .text              ro code   0x800'1d20   0x240  stm32f1xx_hal_rcc_ex.o [3]
-  .text              ro code   0x800'1f60    0x7c  stm32f1xx_hal_tim_ex.o [3]
-  .text              ro code   0x800'1fdc     0x2  stm32f1xx_hal_tim.o [3]
-  .rodata            const     0x800'1fde     0x2  stm32f1xx_hal_rcc.o [3]
-  .text              ro code   0x800'1fe0    0x66  ABImemset.o [7]
-  .rodata            const     0x800'2046     0x2  stm32f1xx_hal_rcc_ex.o [3]
-  .text              ro code   0x800'2048   0x48a  ws2812b.o [4]
-  .text              ro code   0x800'24d4   0x1bc  equalizer.o [4]
-  .text              ro code   0x800'2690    0xce  main.o [4]
-  .text              ro code   0x800'2760    0x28  stm32f1xx_hal.o [3]
-  .text              ro code   0x800'2788    0x5c  touch.o [4]
-  .text              ro code   0x800'27e4    0x28  stm32f1xx_hal.o [3]
-  .text              ro code   0x800'280c    0x40  stm32f1xx_hal_msp.o [4]
-  .rodata            const     0x800'284c    0xc4  equalizer.o [4]
-  .rodata            const     0x800'2910    0xc4  equalizer.o [4]
-  .rodata            const     0x800'29d4    0xc4  equalizer.o [4]
-  .rodata            const     0x800'2a98    0xc4  equalizer.o [4]
-  .text              ro code   0x800'2b5c    0x64  stm32f1xx_it.o [4]
-  .text              ro code   0x800'2bc0    0x18  stm32f1xx_hal.o [3]
-  .text              ro code   0x800'2bd8    0x38  zero_init3.o [7]
-  .text              ro code   0x800'2c10    0x28  data_init.o [7]
-  .iar.init_table    const     0x800'2c38    0x20  - Linker created -
-  .text              ro code   0x800'2c58    0x1e  cmain.o [7]
-  .text              ro code   0x800'2c76     0x4  low_level_init.o [5]
-  .text              ro code   0x800'2c7a     0x4  exit.o [5]
-  .text              ro code   0x800'2c80     0xa  cexit.o [7]
-  .text              ro code   0x800'2c8c    0x14  exit.o [8]
-  .text              ro code   0x800'2ca0    0x1c  cstartup_M.o [7]
-  .rodata            const     0x800'2cbc    0x10  stm32f1xx_hal_rcc.o [3]
-  .rodata            const     0x800'2ccc    0x10  stm32f1xx_hal_rcc_ex.o [3]
-  .rodata            const     0x800'2cdc    0x10  system_stm32f1xx.o [2]
-  .text              ro code   0x800'2cec    0x10  startup_stm32f103xb.o [1]
-  .rodata            const     0x800'2cfc     0x8  system_stm32f1xx.o [2]
-  .text              ro code   0x800'2d04     0x4  startup_stm32f103xb.o [1]
-  .text              ro code   0x800'2d08     0x4  startup_stm32f103xb.o [1]
-  .text              ro code   0x800'2d0c     0x4  startup_stm32f103xb.o [1]
-  .text              ro code   0x800'2d10     0x4  startup_stm32f103xb.o [1]
-  .text              ro code   0x800'2d14     0x4  startup_stm32f103xb.o [1]
-  .text              ro code   0x800'2d18     0x4  startup_stm32f103xb.o [1]
-  .text              ro code   0x800'2d1c     0x4  startup_stm32f103xb.o [1]
-  .text              ro code   0x800'2d20     0x4  startup_stm32f103xb.o [1]
-  .text              ro code   0x800'2d24     0x4  startup_stm32f103xb.o [1]
-  .text              ro code   0x800'2d28     0x4  startup_stm32f103xb.o [1]
-  .text              ro code   0x800'2d2c     0x4  startup_stm32f103xb.o [1]
-  .text              ro code   0x800'2d30     0x4  startup_stm32f103xb.o [1]
-  .text              ro code   0x800'2d34     0x4  startup_stm32f103xb.o [1]
-  .text              ro code   0x800'2d38     0x4  startup_stm32f103xb.o [1]
-  .text              ro code   0x800'2d3c     0x4  startup_stm32f103xb.o [1]
-  .text              ro code   0x800'2d40     0x4  startup_stm32f103xb.o [1]
-  .text              ro code   0x800'2d44     0x4  startup_stm32f103xb.o [1]
-  .text              ro code   0x800'2d48     0x4  startup_stm32f103xb.o [1]
-  .text              ro code   0x800'2d4c     0x4  startup_stm32f103xb.o [1]
-  .text              ro code   0x800'2d50     0x4  startup_stm32f103xb.o [1]
-  .text              ro code   0x800'2d54     0x4  startup_stm32f103xb.o [1]
-  .text              ro code   0x800'2d58     0x4  startup_stm32f103xb.o [1]
-  .text              ro code   0x800'2d5c     0x4  startup_stm32f103xb.o [1]
-  .text              ro code   0x800'2d60     0x4  startup_stm32f103xb.o [1]
-  .text              ro code   0x800'2d64     0x4  startup_stm32f103xb.o [1]
-  .text              ro code   0x800'2d68     0x4  startup_stm32f103xb.o [1]
-  .text              ro code   0x800'2d6c     0x4  startup_stm32f103xb.o [1]
-  .text              ro code   0x800'2d70     0x4  startup_stm32f103xb.o [1]
-  .text              ro code   0x800'2d74     0x4  startup_stm32f103xb.o [1]
-  .text              ro code   0x800'2d78     0x4  startup_stm32f103xb.o [1]
-  .text              ro code   0x800'2d7c     0x4  startup_stm32f103xb.o [1]
-  .text              ro code   0x800'2d80     0x4  startup_stm32f103xb.o [1]
-  .text              ro code   0x800'2d84     0x4  startup_stm32f103xb.o [1]
-  .text              ro code   0x800'2d88     0x4  startup_stm32f103xb.o [1]
-  .text              ro code   0x800'2d8c     0x4  startup_stm32f103xb.o [1]
-  .text              ro code   0x800'2d90     0x4  startup_stm32f103xb.o [1]
-  .text              ro code   0x800'2d94     0x4  startup_stm32f103xb.o [1]
-  .text              ro code   0x800'2d98     0x2  system_stm32f1xx.o [2]
-  .rodata            const     0x800'2d9a     0x0  zero_init3.o [7]
-  .rodata            const     0x800'2d9a     0x0  packbits_init_single.o [7]
-  Initializer bytes  const     0x800'2d9a    0x20  <for P2-1>
-                             - 0x800'2dba  0x2cce
+"P1":                                      0x732e
+  .text              ro code   0x800'00ec   0xada  arm_cfft_f32.o [3]
+  .text              ro code   0x800'0bc6    0x3a  packbits_init_single.o [8]
+  .text              ro code   0x800'0c00   0x16e  FltAddSub.o [7]
+  .rodata            const     0x800'0d6e     0x2  stm32f1xx_hal_rcc.o [4]
+  .text              ro code   0x800'0d70    0xd8  FltMul.o [7]
+  .text              ro code   0x800'0e48   0x970  arm_cfft_radix8_f32.o [3]
+  .text              ro code   0x800'17b8    0xc0  arm_bitreversal2.o [3]
+  .text              ro code   0x800'1878    0x1a  U32ToFlt.o [7]
+  .rodata            const     0x800'1892     0x2  stm32f1xx_hal_rcc_ex.o [4]
+  .text              ro code   0x800'1894   0x118  FltDiv.o [7]
+  .rodata            const     0x800'19ac   0x800  arm_common_tables.o [3]
+  .rodata            const     0x800'21ac   0x800  arm_common_tables.o [3]
+  .text              ro code   0x800'29ac   0x6f0  stm32f1xx_hal_rcc.o [4]
+  .text              ro code   0x800'309c     0xc  stm32f1xx_hal.o [4]
+  .text              ro code   0x800'30a8    0x4c  stm32f1xx_hal.o [4]
+  .text              ro code   0x800'30f4    0x86  ABImemcpy.o [8]
+  .text              ro code   0x800'317c   0x184  stm32f1xx_hal_cortex.o [4]
+  .text              ro code   0x800'3300   0x6e2  stm32f1xx_hal_adc.o [4]
+  .text              ro code   0x800'39e2     0x2  stm32f1xx_hal_adc.o [4]
+  .text              ro code   0x800'39e4   0x364  stm32f1xx_hal_dma.o [4]
+  .text              ro code   0x800'3d48   0x3e8  mircophone.o [5]
+  .text              ro code   0x800'4130     0x2  stm32f1xx_hal_adc_ex.o [4]
+  .text              ro code   0x800'4132     0x2  stm32f1xx_hal_adc.o [4]
+  .text              ro code   0x800'4134     0x2  stm32f1xx_hal_adc.o [4]
+  .text              ro code   0x800'4136     0x2  stm32f1xx_hal_adc.o [4]
+  .text              ro code   0x800'4138    0xf0  stm32f1xx_hal_adc_ex.o [4]
+  .text              ro code   0x800'4228   0x33c  stm32f1xx_hal_tim.o [4]
+  .text              ro code   0x800'4564    0x66  ABImemset.o [8]
+  .text              ro code   0x800'45cc   0x268  stm32f1xx_hal_gpio.o [4]
+  .text              ro code   0x800'4834   0x240  stm32f1xx_hal_rcc_ex.o [4]
+  .text              ro code   0x800'4a74    0x7c  stm32f1xx_hal_tim_ex.o [4]
+  .text              ro code   0x800'4af0    0x24  S32ToFlt.o [7]
+  .text              ro code   0x800'4b14   0x2c6  arm_rfft_fast_f32.o [3]
+  .text              ro code   0x800'4ddc   0x1ac  logx32.o [7]
+  .text              ro code   0x800'4f88    0x26  FltToS32.o [7]
+  .text              ro code   0x800'4fb0    0xd4  arm_rfft_fast_init_f32.o [3]
+  .text              ro code   0x800'5084    0x74  sqrtf.o [7]
+  .text              ro code   0x800'50f8     0x2  stm32f1xx_hal_tim.o [4]
+  .text              ro code   0x800'50fc    0x40  frexpf.o [7]
+  .text              ro code   0x800'513c    0x8a  ldexpf.o [7]
+  .text              ro code   0x800'51c8   0x4a4  equalizer.o [5]
+  .text              ro code   0x800'566c   0x48a  ws2812b.o [5]
+  .rodata            const     0x800'5af8   0x400  arm_common_tables.o [3]
+  .rodata            const     0x800'5ef8   0x400  arm_common_tables.o [3]
+  .rodata            const     0x800'62f8   0x370  arm_common_tables.o [3]
+  .rodata            const     0x800'6668   0x200  arm_common_tables.o [3]
+  .rodata            const     0x800'6868   0x200  arm_common_tables.o [3]
+  .rodata            const     0x800'6a68   0x1a0  arm_common_tables.o [3]
+  .rodata            const     0x800'6c08   0x100  arm_common_tables.o [3]
+  .rodata            const     0x800'6d08   0x100  arm_common_tables.o [3]
+  .text              ro code   0x800'6e08    0xf2  main.o [5]
+  .text              ro code   0x800'6efc    0x28  stm32f1xx_hal.o [4]
+  .text              ro code   0x800'6f24    0x14  memset.o [8]
+  .text              ro code   0x800'6f38    0x40  stm32f1xx_hal_msp.o [5]
+  .rodata            const     0x800'6f78    0x80  arm_common_tables.o [3]
+  .rodata            const     0x800'6ff8    0x80  arm_common_tables.o [3]
+  .rodata            const     0x800'7078    0x70  arm_common_tables.o [3]
+  .rodata            const     0x800'70e8    0x60  arm_common_tables.o [3]
+  .text              ro code   0x800'7148    0x38  zero_init3.o [8]
+  .text              ro code   0x800'7180    0x34  stm32f1xx_it.o [5]
+  .text              ro code   0x800'71b4    0x18  stm32f1xx_hal.o [4]
+  .rodata            const     0x800'71cc    0x28  arm_common_tables.o [3]
+  .text              ro code   0x800'71f4    0x28  data_init.o [8]
+  .iar.init_table    const     0x800'721c    0x20  - Linker created -
+  .text              ro code   0x800'723c    0x1e  cmain.o [8]
+  .text              ro code   0x800'725a     0x4  low_level_init.o [6]
+  .text              ro code   0x800'725e     0x4  exit.o [6]
+  .text              ro code   0x800'7264     0xa  cexit.o [8]
+  .text              ro code   0x800'7270    0x14  exit.o [9]
+  .rodata            const     0x800'7284    0x1c  equalizer.o [5]
+  .rodata            const     0x800'72a0    0x1c  equalizer.o [5]
+  .rodata            const     0x800'72bc    0x1c  equalizer.o [5]
+  .rodata            const     0x800'72d8    0x1c  equalizer.o [5]
+  .text              ro code   0x800'72f4    0x1c  cstartup_M.o [8]
+  .rodata            const     0x800'7310    0x10  stm32f1xx_hal_rcc.o [4]
+  .rodata            const     0x800'7320    0x10  stm32f1xx_hal_rcc_ex.o [4]
+  .rodata            const     0x800'7330    0x10  system_stm32f1xx.o [2]
+  .text              ro code   0x800'7340    0x10  startup_stm32f103xb.o [1]
+  .rodata            const     0x800'7350     0x8  system_stm32f1xx.o [2]
+  .rodata            const     0x800'7358     0x4  equalizer.o [5]
+  .text              ro code   0x800'735c     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'7360     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'7364     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'7368     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'736c     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'7370     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'7374     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'7378     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'737c     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'7380     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'7384     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'7388     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'738c     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'7390     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'7394     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'7398     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'739c     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'73a0     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'73a4     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'73a8     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'73ac     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'73b0     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'73b4     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'73b8     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'73bc     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'73c0     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'73c4     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'73c8     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'73cc     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'73d0     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'73d4     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'73d8     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'73dc     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'73e0     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'73e4     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'73e8     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'73ec     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'73f0     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'73f4     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'73f8     0x2  system_stm32f1xx.o [2]
+  .rodata            const     0x800'73fa     0x0  zero_init3.o [8]
+  .rodata            const     0x800'73fa     0x0  packbits_init_single.o [8]
+  Initializer bytes  const     0x800'73fa    0x20  <for P2-1>
+                             - 0x800'741a  0x732e
 
 "P2", part 1 of 3:                          0x12e
   P2-1                        0x2000'0000   0x12e  <Init block>
-    .data            inited   0x2000'0000    0x10  equalizer.o [4]
-    .data            inited   0x2000'0010     0x4  stm32f1xx_hal.o [3]
+    .data            inited   0x2000'0000    0x10  equalizer.o [5]
+    .data            inited   0x2000'0010     0x4  stm32f1xx_hal.o [4]
     .data            inited   0x2000'0014     0x4  system_stm32f1xx.o [2]
-    .data            inited   0x2000'0018   0x115  ws2812b.o [4]
-    .data            inited   0x2000'012d     0x1  stm32f1xx_hal.o [3]
+    .data            inited   0x2000'0018   0x115  ws2812b.o [5]
+    .data            inited   0x2000'012d     0x1  stm32f1xx_hal.o [4]
                             - 0x2000'012e   0x12e
 
-"P2", part 2 of 3:                         0x19b4
-  .bss               zero     0x2000'0130  0x1800  ws2812b.o [4]
-  .bss               zero     0x2000'1930    0xd0  equalizer.o [4]
-  .bss               zero     0x2000'1a00    0x48  mircophone.o [4]
-  .bss               zero     0x2000'1a48    0x44  mircophone.o [4]
-  .bss               zero     0x2000'1a8c    0x30  mircophone.o [4]
-  .bss               zero     0x2000'1abc    0x10  equalizer.o [4]
-  .bss               zero     0x2000'1acc    0x10  mircophone.o [4]
-  .bss               zero     0x2000'1adc     0x4  stm32f1xx_hal.o [3]
-  .bss               zero     0x2000'1ae0     0x1  mircophone.o [4]
-                            - 0x2000'1ae1  0x19b1
+"P2", part 2 of 3:                         0x1ca0
+  .bss               zero     0x2000'0130  0x1800  ws2812b.o [5]
+  .bss               zero     0x2000'1930   0x100  mircophone.o [5]
+  .bss               zero     0x2000'1a30   0x100  mircophone.o [5]
+  .bss               zero     0x2000'1b30    0xf0  equalizer.o [5]
+  .bss               zero     0x2000'1c20    0x80  mircophone.o [5]
+  .bss               zero     0x2000'1ca0    0x48  mircophone.o [5]
+  .bss               zero     0x2000'1ce8    0x44  mircophone.o [5]
+  .bss               zero     0x2000'1d2c    0x40  mircophone.o [5]
+  .bss               zero     0x2000'1d6c    0x30  mircophone.o [5]
+  .bss               zero     0x2000'1d9c    0x18  mircophone.o [5]
+  .bss               zero     0x2000'1db4    0x10  equalizer.o [5]
+  .bss               zero     0x2000'1dc4     0x4  main.o [5]
+  .bss               zero     0x2000'1dc8     0x4  stm32f1xx_hal.o [4]
+  .bss               zero     0x2000'1dcc     0x2  mircophone.o [5]
+  .bss               zero     0x2000'1dce     0x1  main.o [5]
+  .bss               zero     0x2000'1dcf     0x1  mircophone.o [5]
+                            - 0x2000'1dd0  0x1ca0
 
 "P2", part 3 of 3:                          0x400
-  CSTACK                      0x2000'1ae8   0x400  <Block>
-    CSTACK           uninit   0x2000'1ae8   0x400  <Block tail>
-                            - 0x2000'1ee8   0x400
+  CSTACK                      0x2000'1dd0   0x400  <Block>
+    CSTACK           uninit   0x2000'1dd0   0x400  <Block tail>
+                            - 0x2000'21d0   0x400
 
 Unused ranges:
 
          From           To      Size
          ----           --      ----
-   0x800'2dba   0x801'ffff  0x1'd246
+   0x800'741a   0x801'ffff  0x1'8be6
   0x2000'012e  0x2000'012f       0x2
-  0x2000'1ae4  0x2000'1ae7       0x4
-  0x2000'1ee8  0x2000'4fff    0x3118
+  0x2000'21d0  0x2000'4fff    0x2e30
 
 
 *******************************************************************************
@@ -220,12 +290,12 @@ Unused ranges:
           Address      Size
           -------      ----
 Zero (__iar_zero_init3)
-    1 destination range, total size 0x19b1:
-          0x2000'0130  0x19b1
+    1 destination range, total size 0x1ca0:
+          0x2000'0130  0x1ca0
 
 Copy/packbits (__iar_packbits_init_single3)
     1 source range, total size 0x20 (10% of destination):
-           0x800'2d9a    0x20
+           0x800'73fa    0x20
     1 destination range, total size 0x12e:
           0x2000'0000   0x12e
 
@@ -235,79 +305,98 @@ Copy/packbits (__iar_packbits_init_single3)
 *** MODULE SUMMARY
 ***
 
-    Module                  ro code  ro data  rw data
-    ------                  -------  -------  -------
+    Module                    ro code  ro data  rw data
+    ------                    -------  -------  -------
 command line/config:
-    -------------------------------------------------
+    ---------------------------------------------------
     Total:
 
 D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\AudioVisualizerBar\Obj\Application\EWARM: [1]
-    startup_stm32f103xb.o       400
-    -------------------------------------------------
-    Total:                      400
+    startup_stm32f103xb.o         408
+    ---------------------------------------------------
+    Total:                        408
 
 D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\AudioVisualizerBar\Obj\Application\EWARM\Drivers\CMSIS: [2]
-    system_stm32f1xx.o            2       24        4
-    -------------------------------------------------
-    Total:                        2       24        4
+    system_stm32f1xx.o              2       24        4
+    ---------------------------------------------------
+    Total:                          2       24        4
 
-D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\AudioVisualizerBar\Obj\Application\EWARM\Drivers\STM32F1xx_HAL_Driver: [3]
-    stm32f1xx_hal.o             192        2        9
-    stm32f1xx_hal_adc.o       1'658
-    stm32f1xx_hal_adc_ex.o      242
-    stm32f1xx_hal_cortex.o      388
-    stm32f1xx_hal_dma.o         788
-    stm32f1xx_hal_gpio.o        616
-    stm32f1xx_hal_rcc.o       1'776       18
-    stm32f1xx_hal_rcc_ex.o      576       18
-    stm32f1xx_hal_tim.o         830
-    stm32f1xx_hal_tim_ex.o      124
-    -------------------------------------------------
-    Total:                    7'190       38        9
+D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH: [3]
+    arm_bitreversal2.o            192
+    arm_cfft_f32.o              2'778
+    arm_cfft_radix8_f32.o       2'416
+    arm_common_tables.o                  9'480
+    arm_rfft_fast_f32.o           710
+    arm_rfft_fast_init_f32.o      212
+    ---------------------------------------------------
+    Total:                      6'308    9'480
 
-D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\AudioVisualizerBar\Obj\Application\User\Src: [4]
-    equalizer.o                 444      785      240
-    main.o                      206
-    mircophone.o                624               205
-    stm32f1xx_hal_msp.o          64
-    stm32f1xx_it.o              100
-    touch.o                      92
-    ws2812b.o                 1'162       29    6'421
-    -------------------------------------------------
-    Total:                    2'692      814    6'866
+D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\AudioVisualizerBar\Obj\Application\EWARM\Drivers\STM32F1xx_HAL_Driver: [4]
+    stm32f1xx_hal.o               152        2        9
+    stm32f1xx_hal_adc.o         1'770
+    stm32f1xx_hal_adc_ex.o        242
+    stm32f1xx_hal_cortex.o        388
+    stm32f1xx_hal_dma.o           868
+    stm32f1xx_hal_gpio.o          616
+    stm32f1xx_hal_rcc.o         1'776       18
+    stm32f1xx_hal_rcc_ex.o        576       18
+    stm32f1xx_hal_tim.o           830
+    stm32f1xx_hal_tim_ex.o        124
+    ---------------------------------------------------
+    Total:                      7'342       38        9
 
-dl7M_tlf.a: [5]
-    exit.o                        4
-    low_level_init.o              4
-    -------------------------------------------------
-    Total:                        8
+D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\AudioVisualizerBar\Obj\Application\User\Src: [5]
+    equalizer.o                 1'188      117      272
+    main.o                        242                 5
+    mircophone.o                1'000               919
+    stm32f1xx_hal_msp.o            64
+    stm32f1xx_it.o                 52
+    ws2812b.o                   1'162       29    6'421
+    ---------------------------------------------------
+    Total:                      3'708      146    7'617
 
-m7M_tl.a: [6]
-    -------------------------------------------------
-    Total:
+dl7M_tlf.a: [6]
+    exit.o                          4
+    low_level_init.o                4
+    ---------------------------------------------------
+    Total:                          8
 
-rt7M_tl.a: [7]
-    ABImemcpy.o                 134
-    ABImemset.o                 102
-    cexit.o                      10
-    cmain.o                      30
-    cstartup_M.o                 28
-    data_init.o                  40
-    memset.o                     20
-    packbits_init_single.o       58
-    zero_init3.o                 56
-    -------------------------------------------------
-    Total:                      478
+m7M_tl.a: [7]
+    FltAddSub.o                   366
+    FltDiv.o                      280
+    FltMul.o                      216
+    FltToS32.o                     38
+    S32ToFlt.o                     36
+    U32ToFlt.o                     26
+    frexpf.o                       64
+    ldexpf.o                      138
+    logx32.o                      428
+    sqrtf.o                       116
+    ---------------------------------------------------
+    Total:                      1'708
 
-shb_l.a: [8]
-    exit.o                       20
-    -------------------------------------------------
-    Total:                       20
+rt7M_tl.a: [8]
+    ABImemcpy.o                   134
+    ABImemset.o                   102
+    cexit.o                        10
+    cmain.o                        30
+    cstartup_M.o                   28
+    data_init.o                    40
+    memset.o                       20
+    packbits_init_single.o         58
+    zero_init3.o                   56
+    ---------------------------------------------------
+    Total:                        478
 
-    Gaps                          8
-    Linker created                        32    1'024
------------------------------------------------------
-    Grand Total:             10'798      908    7'903
+shb_l.a: [9]
+    exit.o                         20
+    ---------------------------------------------------
+    Total:                         20
+
+    Gaps                           18        2
+    Linker created                          32    1'024
+-------------------------------------------------------
+    Grand Total:               20'000    9'722    8'654
 
 
 *******************************************************************************
@@ -316,181 +405,242 @@ shb_l.a: [8]
 
 Entry                       Address    Size  Type      Object
 -----                       -------    ----  ----      ------
-.iar.init_table$$Base    0x800'2c38           --   Gb  - Linker created -
-.iar.init_table$$Limit   0x800'2c58           --   Gb  - Linker created -
-?main                    0x800'2c59          Code  Gb  cmain.o [7]
-ADC1_2_IRQHandler        0x800'2ba3     0xa  Code  Gb  stm32f1xx_it.o [4]
+.iar.init_table$$Base    0x800'721c           --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'723c           --   Gb  - Linker created -
+?main                    0x800'723d          Code  Gb  cmain.o [8]
+ADC1_2_IRQHandler        0x800'7199     0xa  Code  Gb  stm32f1xx_it.o [5]
 ADC_ConversionStop_Disable
-                         0x800'101d    0x4a  Code  Gb  stm32f1xx_hal_adc.o [3]
-ADC_DMAConvCplt          0x800'1069    0x52  Code  Gb  stm32f1xx_hal_adc.o [3]
-ADC_DMAError             0x800'10cd    0x1e  Code  Gb  stm32f1xx_hal_adc.o [3]
-ADC_DMAHalfConvCplt      0x800'10bd     0xe  Code  Gb  stm32f1xx_hal_adc.o [3]
-ADC_Enable               0x800'0f8b    0x6e  Code  Gb  stm32f1xx_hal_adc.o [3]
-ADC_Handle              0x2000'1a8c    0x30  Data  Gb  mircophone.o [4]
-AHBPrescTable            0x800'2cdc    0x10  Data  Gb  system_stm32f1xx.o [2]
-APBPrescTable            0x800'2cfc     0x8  Data  Gb  system_stm32f1xx.o [2]
-BusFault_Handler         0x800'2b63     0x2  Code  Gb  stm32f1xx_it.o [4]
-CSTACK$$Base            0x2000'1ae8           --   Gb  - Linker created -
-CSTACK$$Limit           0x2000'1ee8           --   Gb  - Linker created -
+                         0x800'3915    0x4a  Code  Gb  stm32f1xx_hal_adc.o [4]
+ADC_DMAConvCplt          0x800'3961    0x52  Code  Gb  stm32f1xx_hal_adc.o [4]
+ADC_DMAError             0x800'39c5    0x1e  Code  Gb  stm32f1xx_hal_adc.o [4]
+ADC_DMAHalfConvCplt      0x800'39b5     0xe  Code  Gb  stm32f1xx_hal_adc.o [4]
+ADC_Enable               0x800'3883    0x6e  Code  Gb  stm32f1xx_hal_adc.o [4]
+ADC_Handle              0x2000'1d6c    0x30  Data  Gb  mircophone.o [5]
+AHBPrescTable            0x800'7330    0x10  Data  Gb  system_stm32f1xx.o [2]
+APBPrescTable            0x800'7350     0x8  Data  Gb  system_stm32f1xx.o [2]
+BusFault_Handler         0x800'7187     0x2  Code  Gb  stm32f1xx_it.o [5]
+CSTACK$$Base            0x2000'1dd0           --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'21d0           --   Gb  - Linker created -
 DMA1_Channel1_IRQHandler
-                         0x800'2bad     0xc  Code  Gb  stm32f1xx_it.o [4]
+                         0x800'71a3     0xc  Code  Gb  stm32f1xx_it.o [5]
 DMA1_Channel7_IRQHandler
-                         0x800'2309     0x6  Code  Gb  ws2812b.o [4]
-DMA_HandleStruct_CC1    0x2000'005c    0x44  Data  Lc  ws2812b.o [4]
-DMA_HandleStruct_CC2    0x2000'00a0    0x44  Data  Lc  ws2812b.o [4]
-DMA_HandleStruct_UEV    0x2000'0018    0x44  Data  Lc  ws2812b.o [4]
-DMA_Handle_ADC          0x2000'1a48    0x44  Data  Gb  mircophone.o [4]
-DMA_SetConfig            0x800'13d5    0x2c  Code  Lc  stm32f1xx_hal_dma.o [3]
-DebugMon_Handler         0x800'2b69     0x2  Code  Gb  stm32f1xx_it.o [4]
-EXTI15_10_IRQHandler     0x800'2b75    0x18  Code  Gb  stm32f1xx_it.o [4]
-EXTI1_IRQHandler         0x800'2b8d    0x16  Code  Gb  stm32f1xx_it.o [4]
-Error_Handler            0x800'275b     0x4  Code  Gb  main.o [4]
+                         0x800'592d     0x6  Code  Gb  ws2812b.o [5]
+DMA_HandleStruct_CC1    0x2000'005c    0x44  Data  Lc  ws2812b.o [5]
+DMA_HandleStruct_CC2    0x2000'00a0    0x44  Data  Lc  ws2812b.o [5]
+DMA_HandleStruct_UEV    0x2000'0018    0x44  Data  Lc  ws2812b.o [5]
+DMA_Handle_ADC          0x2000'1ce8    0x44  Data  Gb  mircophone.o [5]
+DMA_SetConfig            0x800'3d1d    0x2c  Code  Lc  stm32f1xx_hal_dma.o [4]
+DebugMon_Handler         0x800'718d     0x2  Code  Gb  stm32f1xx_it.o [5]
+Error_Handler            0x800'6ef7     0x4  Code  Gb  main.o [5]
 HAL_ADCEx_Calibration_Start
-                         0x800'1679    0xec  Code  Gb  stm32f1xx_hal_adc_ex.o [3]
+                         0x800'4139    0xec  Code  Gb  stm32f1xx_hal_adc_ex.o [4]
 HAL_ADCEx_InjectedConvCpltCallback
-                         0x800'1671     0x2  Code  Gb  stm32f1xx_hal_adc_ex.o [3]
-HAL_ADC_ConfigChannel    0x800'0e39   0x152  Code  Gb  stm32f1xx_hal_adc.o [3]
+                         0x800'4131     0x2  Code  Gb  stm32f1xx_hal_adc_ex.o [4]
+HAL_ADC_ConfigChannel    0x800'3731   0x152  Code  Gb  stm32f1xx_hal_adc.o [4]
 HAL_ADC_ConvCpltCallback
-                         0x800'162d     0x8  Code  Gb  mircophone.o [4]
+                         0x800'4075    0x12  Code  Gb  mircophone.o [5]
 HAL_ADC_ConvHalfCpltCallback
-                         0x800'1675     0x2  Code  Gb  stm32f1xx_hal_adc.o [3]
-HAL_ADC_ErrorCallback    0x800'1677     0x2  Code  Gb  stm32f1xx_hal_adc.o [3]
-HAL_ADC_IRQHandler       0x800'0d33   0x106  Code  Gb  stm32f1xx_hal_adc.o [3]
-HAL_ADC_Init             0x800'0a79   0x144  Code  Gb  stm32f1xx_hal_adc.o [3]
+                         0x800'4135     0x2  Code  Gb  stm32f1xx_hal_adc.o [4]
+HAL_ADC_ErrorCallback    0x800'4137     0x2  Code  Gb  stm32f1xx_hal_adc.o [4]
+HAL_ADC_IRQHandler       0x800'362b   0x106  Code  Gb  stm32f1xx_hal_adc.o [4]
+HAL_ADC_Init             0x800'3301   0x144  Code  Gb  stm32f1xx_hal_adc.o [4]
 HAL_ADC_LevelOutOfWindowCallback
-                         0x800'1673     0x2  Code  Gb  stm32f1xx_hal_adc.o [3]
-HAL_ADC_MspInit          0x800'10eb     0x2  Code  Gb  stm32f1xx_hal_adc.o [3]
-HAL_ADC_Start_DMA        0x800'0bbd   0x176  Code  Gb  stm32f1xx_hal_adc.o [3]
-HAL_DMA_IRQHandler       0x800'11eb   0x16a  Code  Gb  stm32f1xx_hal_dma.o [3]
-HAL_DMA_Init             0x800'10ed    0x66  Code  Gb  stm32f1xx_hal_dma.o [3]
+                         0x800'4133     0x2  Code  Gb  stm32f1xx_hal_adc.o [4]
+HAL_ADC_MspInit          0x800'39e3     0x2  Code  Gb  stm32f1xx_hal_adc.o [4]
+HAL_ADC_Start_DMA        0x800'3445   0x176  Code  Gb  stm32f1xx_hal_adc.o [4]
+HAL_ADC_Stop_DMA         0x800'35bb    0x70  Code  Gb  stm32f1xx_hal_adc.o [4]
+HAL_DMA_Abort            0x800'3ae3    0x4e  Code  Gb  stm32f1xx_hal_dma.o [4]
+HAL_DMA_IRQHandler       0x800'3b31   0x16a  Code  Gb  stm32f1xx_hal_dma.o [4]
+HAL_DMA_Init             0x800'39e5    0x66  Code  Gb  stm32f1xx_hal_dma.o [4]
 HAL_DMA_RegisterCallback
-                         0x800'1379    0x5c  Code  Gb  stm32f1xx_hal_dma.o [3]
-HAL_DMA_Start_IT         0x800'1153    0x98  Code  Gb  stm32f1xx_hal_dma.o [3]
-HAL_Delay                0x800'27e5    0x28  Code  Gb  stm32f1xx_hal.o [3]
-HAL_GPIO_Init            0x800'1ab9   0x226  Code  Gb  stm32f1xx_hal_gpio.o [3]
-HAL_GetTick              0x800'07dd     0xc  Code  Gb  stm32f1xx_hal.o [3]
-HAL_IncTick              0x800'2bc1    0x18  Code  Gb  stm32f1xx_hal.o [3]
-HAL_Init                 0x800'2761    0x22  Code  Gb  stm32f1xx_hal.o [3]
-HAL_InitTick             0x800'07e9    0x4c  Code  Gb  stm32f1xx_hal.o [3]
-HAL_MspInit              0x800'280d    0x40  Code  Gb  stm32f1xx_hal_msp.o [4]
+                         0x800'3cc1    0x5c  Code  Gb  stm32f1xx_hal_dma.o [4]
+HAL_DMA_Start_IT         0x800'3a4b    0x98  Code  Gb  stm32f1xx_hal_dma.o [4]
+HAL_GPIO_Init            0x800'45cd   0x226  Code  Gb  stm32f1xx_hal_gpio.o [4]
+HAL_GetTick              0x800'309d     0xc  Code  Gb  stm32f1xx_hal.o [4]
+HAL_IncTick              0x800'71b5    0x18  Code  Gb  stm32f1xx_hal.o [4]
+HAL_Init                 0x800'6efd    0x22  Code  Gb  stm32f1xx_hal.o [4]
+HAL_InitTick             0x800'30a9    0x4c  Code  Gb  stm32f1xx_hal.o [4]
+HAL_MspInit              0x800'6f39    0x40  Code  Gb  stm32f1xx_hal_msp.o [5]
 HAL_NVIC_ClearPendingIRQ
-                         0x800'0a45     0xe  Code  Gb  stm32f1xx_hal_cortex.o [3]
-HAL_NVIC_EnableIRQ       0x800'0a2b     0xe  Code  Gb  stm32f1xx_hal_cortex.o [3]
-HAL_NVIC_SetPriority     0x800'0a01    0x2a  Code  Gb  stm32f1xx_hal_cortex.o [3]
+                         0x800'32cd     0xe  Code  Gb  stm32f1xx_hal_cortex.o [4]
+HAL_NVIC_EnableIRQ       0x800'32b3     0xe  Code  Gb  stm32f1xx_hal_cortex.o [4]
+HAL_NVIC_SetPriority     0x800'3289    0x2a  Code  Gb  stm32f1xx_hal_cortex.o [4]
 HAL_NVIC_SetPriorityGrouping
-                         0x800'09f5     0xc  Code  Gb  stm32f1xx_hal_cortex.o [3]
+                         0x800'327d     0xc  Code  Gb  stm32f1xx_hal_cortex.o [4]
 HAL_RCCEx_GetPeriphCLKFreq
-                         0x800'1e2f   0x104  Code  Gb  stm32f1xx_hal_rcc_ex.o [3]
+                         0x800'4943   0x104  Code  Gb  stm32f1xx_hal_rcc_ex.o [4]
 HAL_RCCEx_PeriphCLKConfig
-                         0x800'1d21   0x10e  Code  Gb  stm32f1xx_hal_rcc_ex.o [3]
-HAL_RCC_ClockConfig      0x800'056f   0x170  Code  Gb  stm32f1xx_hal_rcc.o [3]
-HAL_RCC_GetHCLKFreq      0x800'0751     0x6  Code  Gb  stm32f1xx_hal_rcc.o [3]
-HAL_RCC_GetPCLK2Freq     0x800'0757    0x16  Code  Gb  stm32f1xx_hal_rcc.o [3]
+                         0x800'4835   0x10e  Code  Gb  stm32f1xx_hal_rcc_ex.o [4]
+HAL_RCC_ClockConfig      0x800'2e2f   0x170  Code  Gb  stm32f1xx_hal_rcc.o [4]
+HAL_RCC_GetHCLKFreq      0x800'3011     0x6  Code  Gb  stm32f1xx_hal_rcc.o [4]
+HAL_RCC_GetPCLK2Freq     0x800'3017    0x16  Code  Gb  stm32f1xx_hal_rcc.o [4]
 HAL_RCC_GetSysClockFreq
-                         0x800'06df    0x72  Code  Gb  stm32f1xx_hal_rcc.o [3]
-HAL_RCC_OscConfig        0x800'00ed   0x482  Code  Gb  stm32f1xx_hal_rcc.o [3]
-HAL_SYSTICK_Config       0x800'0a39     0xc  Code  Gb  stm32f1xx_hal_cortex.o [3]
+                         0x800'2f9f    0x72  Code  Gb  stm32f1xx_hal_rcc.o [4]
+HAL_RCC_OscConfig        0x800'29ad   0x482  Code  Gb  stm32f1xx_hal_rcc.o [4]
+HAL_SYSTICK_Config       0x800'32c1     0xc  Code  Gb  stm32f1xx_hal_cortex.o [4]
 HAL_TIMEx_MasterConfigSynchronization
-                         0x800'1f61    0x6e  Code  Gb  stm32f1xx_hal_tim_ex.o [3]
-HAL_TIM_Base_Init        0x800'1769    0x6e  Code  Gb  stm32f1xx_hal_tim.o [3]
-HAL_TIM_Base_MspInit     0x800'1fdd     0x2  Code  Gb  stm32f1xx_hal_tim.o [3]
-HAL_TIM_Base_Start       0x800'17d7    0x66  Code  Gb  stm32f1xx_hal_tim.o [3]
+                         0x800'4a75    0x6e  Code  Gb  stm32f1xx_hal_tim_ex.o [4]
+HAL_TIM_Base_Init        0x800'4229    0x6e  Code  Gb  stm32f1xx_hal_tim.o [4]
+HAL_TIM_Base_MspInit     0x800'50f9     0x2  Code  Gb  stm32f1xx_hal_tim.o [4]
+HAL_TIM_Base_Start       0x800'4297    0x66  Code  Gb  stm32f1xx_hal_tim.o [4]
 HAL_TIM_OC_ConfigChannel
-                         0x800'1849    0x60  Code  Gb  stm32f1xx_hal_tim.o [3]
-HardFault_Handler        0x800'2b5f     0x2  Code  Gb  stm32f1xx_it.o [4]
-MemManage_Handler        0x800'2b61     0x2  Code  Gb  stm32f1xx_it.o [4]
-NMI_Handler              0x800'2b5d     0x2  Code  Gb  stm32f1xx_it.o [4]
-NVIC_EncodePriority      0x800'0983    0x42  Code  Lc  stm32f1xx_hal_cortex.o [3]
-PendSV_Handler           0x800'2b6b     0x2  Code  Gb  stm32f1xx_it.o [4]
-RCC_Delay                0x800'076d    0x26  Code  Lc  stm32f1xx_hal_rcc.o [3]
-Region$$Table$$Base      0x800'2c38           --   Gb  - Linker created -
-Region$$Table$$Limit     0x800'2c58           --   Gb  - Linker created -
-SVC_Handler              0x800'2b67     0x2  Code  Gb  stm32f1xx_it.o [4]
-SysTick_Config           0x800'09c5    0x30  Code  Lc  stm32f1xx_hal_cortex.o [3]
-SysTick_Handler          0x800'2b6d     0x8  Code  Gb  stm32f1xx_it.o [4]
-SystemClock_Config       0x800'26e9    0x72  Code  Gb  main.o [4]
+                         0x800'4309    0x60  Code  Gb  stm32f1xx_hal_tim.o [4]
+HardFault_Handler        0x800'7183     0x2  Code  Gb  stm32f1xx_it.o [5]
+MemManage_Handler        0x800'7185     0x2  Code  Gb  stm32f1xx_it.o [5]
+NMI_Handler              0x800'7181     0x2  Code  Gb  stm32f1xx_it.o [5]
+NVIC_EncodePriority      0x800'320b    0x42  Code  Lc  stm32f1xx_hal_cortex.o [4]
+PendSV_Handler           0x800'718f     0x2  Code  Gb  stm32f1xx_it.o [5]
+RCC_Delay                0x800'302d    0x26  Code  Lc  stm32f1xx_hal_rcc.o [4]
+Region$$Table$$Base      0x800'721c           --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'723c           --   Gb  - Linker created -
+SVC_Handler              0x800'718b     0x2  Code  Gb  stm32f1xx_it.o [5]
+SysTick_Config           0x800'324d    0x30  Code  Lc  stm32f1xx_hal_cortex.o [4]
+SysTick_Handler          0x800'7191     0x8  Code  Gb  stm32f1xx_it.o [5]
+SystemClock_Config       0x800'6e85    0x72  Code  Gb  main.o [5]
 SystemCoreClock         0x2000'0014     0x4  Data  Gb  system_stm32f1xx.o [2]
-SystemInit               0x800'2d99     0x2  Code  Gb  system_stm32f1xx.o [2]
-TIM2_Handle             0x2000'00e4    0x48  Data  Lc  ws2812b.o [4]
-TIM2_IRQHandler          0x800'230f    0x3e  Code  Gb  ws2812b.o [4]
-TIM_Base_SetConfig       0x800'18a9    0x64  Code  Gb  stm32f1xx_hal_tim.o [3]
-TIM_CCxChannelCmd        0x800'1a81    0x24  Code  Gb  stm32f1xx_hal_tim.o [3]
-TIM_Handle              0x2000'1a00    0x48  Data  Gb  mircophone.o [4]
-TIM_OC1_SetConfig        0x800'190d    0x5a  Code  Lc  stm32f1xx_hal_tim.o [3]
-TIM_OC2_SetConfig        0x800'1967    0x64  Code  Gb  stm32f1xx_hal_tim.o [3]
-TIM_OC3_SetConfig        0x800'19cb    0x62  Code  Lc  stm32f1xx_hal_tim.o [3]
-TIM_OC4_SetConfig        0x800'1a2d    0x46  Code  Lc  stm32f1xx_hal_tim.o [3]
-TransferComplete         0x800'234d    0x7a  Code  Lc  ws2812b.o [4]
-TransferError            0x800'23c9     0x2  Code  Lc  ws2812b.o [4]
-UsageFault_Handler       0x800'2b65     0x2  Code  Gb  stm32f1xx_it.o [4]
-WS2812B_clearBuffer      0x800'23cd    0x46  Code  Gb  ws2812b.o [4]
-WS2812B_init             0x800'2049   0x1aa  Code  Gb  ws2812b.o [4]
-WS2812B_sendBuffer       0x800'21f5   0x114  Code  Gb  ws2812b.o [4]
-WS2812B_setPixel         0x800'2415    0x90  Code  Gb  ws2812b.o [4]
-WS2812_Buffer           0x2000'0130  0x1800  Data  Lc  ws2812b.o [4]
-WS2812_High              0x800'24cc     0x2  Data  Lc  ws2812b.o [4]
-WS2812_Low               0x800'24d0     0x2  Data  Lc  ws2812b.o [4]
-WS2812_State            0x2000'012c     0x1  Data  Lc  ws2812b.o [4]
-__NVIC_ClearPendingIRQ   0x800'0939    0x1e  Code  Lc  stm32f1xx_hal_cortex.o [3]
-__NVIC_EnableIRQ         0x800'091b    0x1e  Code  Lc  stm32f1xx_hal_cortex.o [3]
+SystemInit               0x800'73f9     0x2  Code  Gb  system_stm32f1xx.o [2]
+TIM2_Handle             0x2000'00e4    0x48  Data  Lc  ws2812b.o [5]
+TIM2_IRQHandler          0x800'5933    0x3e  Code  Gb  ws2812b.o [5]
+TIM_Base_SetConfig       0x800'4369    0x64  Code  Gb  stm32f1xx_hal_tim.o [4]
+TIM_CCxChannelCmd        0x800'4541    0x24  Code  Gb  stm32f1xx_hal_tim.o [4]
+TIM_Handle              0x2000'1ca0    0x48  Data  Gb  mircophone.o [5]
+TIM_OC1_SetConfig        0x800'43cd    0x5a  Code  Lc  stm32f1xx_hal_tim.o [4]
+TIM_OC2_SetConfig        0x800'4427    0x64  Code  Gb  stm32f1xx_hal_tim.o [4]
+TIM_OC3_SetConfig        0x800'448b    0x62  Code  Lc  stm32f1xx_hal_tim.o [4]
+TIM_OC4_SetConfig        0x800'44ed    0x46  Code  Lc  stm32f1xx_hal_tim.o [4]
+TransferComplete         0x800'5971    0x7a  Code  Lc  ws2812b.o [5]
+TransferError            0x800'59ed     0x2  Code  Lc  ws2812b.o [5]
+UsageFault_Handler       0x800'7189     0x2  Code  Gb  stm32f1xx_it.o [5]
+WS2812B_clearBuffer      0x800'59f1    0x46  Code  Gb  ws2812b.o [5]
+WS2812B_init             0x800'566d   0x1aa  Code  Gb  ws2812b.o [5]
+WS2812B_sendBuffer       0x800'5819   0x114  Code  Gb  ws2812b.o [5]
+WS2812B_setPixel         0x800'5a39    0x90  Code  Gb  ws2812b.o [5]
+WS2812_Buffer           0x2000'0130  0x1800  Data  Lc  ws2812b.o [5]
+WS2812_High              0x800'5af0     0x2  Data  Lc  ws2812b.o [5]
+WS2812_Low               0x800'5af4     0x2  Data  Lc  ws2812b.o [5]
+WS2812_State            0x2000'012c     0x1  Data  Lc  ws2812b.o [5]
+__NVIC_ClearPendingIRQ   0x800'31c1    0x1e  Code  Lc  stm32f1xx_hal_cortex.o [4]
+__NVIC_EnableIRQ         0x800'31a3    0x1e  Code  Lc  stm32f1xx_hal_cortex.o [4]
 __NVIC_GetPriorityGrouping
-                         0x800'0911     0xa  Code  Lc  stm32f1xx_hal_cortex.o [3]
-__NVIC_SetPriority       0x800'0957    0x2c  Code  Lc  stm32f1xx_hal_cortex.o [3]
+                         0x800'3199     0xa  Code  Lc  stm32f1xx_hal_cortex.o [4]
+__NVIC_SetPriority       0x800'31df    0x2c  Code  Lc  stm32f1xx_hal_cortex.o [4]
 __NVIC_SetPriorityGrouping
-                         0x800'08f5    0x1c  Code  Lc  stm32f1xx_hal_cortex.o [3]
-__aeabi_memcpy4          0x800'0835          Code  Gb  ABImemcpy.o [7]
-__aeabi_memcpy8          0x800'0835          Code  Gb  ABImemcpy.o [7]
-__aeabi_memset           0x800'1fe1          Code  Gb  ABImemset.o [7]
-__cmain                  0x800'2c59          Code  Gb  cmain.o [7]
-__exit                   0x800'2c8d    0x14  Code  Gb  exit.o [8]
-__iar_Memset             0x800'1fe1          Code  Gb  ABImemset.o [7]
-__iar_Memset_word        0x800'1fe9          Code  Gb  ABImemset.o [7]
-__iar_data_init3         0x800'2c11    0x28  Code  Gb  data_init.o [7]
+                         0x800'317d    0x1c  Code  Lc  stm32f1xx_hal_cortex.o [4]
+__aeabi_f2iz             0x800'4f89          Code  Gb  FltToS32.o [7]
+__aeabi_fadd             0x800'0c01          Code  Gb  FltAddSub.o [7]
+__aeabi_fdiv             0x800'1895          Code  Gb  FltDiv.o [7]
+__aeabi_fmul             0x800'0d71          Code  Gb  FltMul.o [7]
+__aeabi_fsub             0x800'0ce1          Code  Gb  FltAddSub.o [7]
+__aeabi_i2f              0x800'4af1          Code  Gb  S32ToFlt.o [7]
+__aeabi_memcpy4          0x800'30f5          Code  Gb  ABImemcpy.o [8]
+__aeabi_memcpy8          0x800'30f5          Code  Gb  ABImemcpy.o [8]
+__aeabi_memset           0x800'4565          Code  Gb  ABImemset.o [8]
+__aeabi_ui2f             0x800'1879          Code  Gb  U32ToFlt.o [7]
+__cmain                  0x800'723d          Code  Gb  cmain.o [8]
+__exit                   0x800'7271    0x14  Code  Gb  exit.o [9]
+__iar_Log32              0x800'4ddd   0x166  Code  Lc  logx32.o [7]
+__iar_Memset             0x800'4565          Code  Gb  ABImemset.o [8]
+__iar_Memset_word        0x800'456d          Code  Gb  ABImemset.o [8]
+__iar_data_init3         0x800'71f5    0x28  Code  Gb  data_init.o [8]
+__iar_frexp32            0x800'50fd          Code  Gb  frexpf.o [7]
+__iar_frexpf             0x800'5109          Code  Gb  frexpf.o [7]
+__iar_ldexp32            0x800'513d          Code  Gb  ldexpf.o [7]
+__iar_log10_32           0x800'4f85     0x4  Code  Gb  logx32.o [7]
+__iar_log10_medium32     0x800'4f85     0x4  Code  Gb  logx32.o [7]
+__iar_log10_mediumf      0x800'4f85     0x4  Code  Gb  logx32.o [7]
 __iar_packbits_init_single3
-                         0x800'08bb    0x3a  Code  Gb  packbits_init_single.o [7]
-__iar_program_start      0x800'2ca1          Code  Gb  cstartup_M.o [7]
-__iar_zero_init3         0x800'2bd9    0x38  Code  Gb  zero_init3.o [7]
-__low_level_init         0x800'2c77     0x4  Code  Gb  low_level_init.o [5]
+                         0x800'0bc7    0x3a  Code  Gb  packbits_init_single.o [8]
+__iar_program_start      0x800'72f5          Code  Gb  cstartup_M.o [8]
+__iar_scalbln32          0x800'513d          Code  Gb  ldexpf.o [7]
+__iar_scalbn32           0x800'513d          Code  Gb  ldexpf.o [7]
+__iar_sqrt32             0x800'5085          Code  Gb  sqrtf.o [7]
+__iar_zero_init3         0x800'7149    0x38  Code  Gb  zero_init3.o [8]
+__low_level_init         0x800'725b     0x4  Code  Gb  low_level_init.o [6]
 __vector_table           0x800'0000          Data  Gb  startup_stm32f103xb.o [1]
-_call_main               0x800'2c65          Code  Gb  cmain.o [7]
-_exit                    0x800'2c81          Code  Gb  cexit.o [7]
-adcValues               0x2000'1acc    0x10  Data  Lc  mircophone.o [4]
-adcValuesReady          0x2000'1ae0     0x1  Data  Lc  mircophone.o [4]
-effect_1                 0x800'284c    0xc4  Data  Lc  equalizer.o [4]
-effect_2                 0x800'2910    0xc4  Data  Lc  equalizer.o [4]
-effect_3                 0x800'29d4    0xc4  Data  Lc  equalizer.o [4]
-effect_4                 0x800'2a98    0xc4  Data  Lc  equalizer.o [4]
-effects                 0x2000'0000    0x10  Data  Lc  equalizer.o [4]
-equalizer               0x2000'1abc    0x10  Data  Lc  equalizer.o [4]
-equalizerSet            0x2000'1930    0xd0  Data  Lc  equalizer.o [4]
-equalizer_init           0x800'24d5   0x11a  Code  Gb  equalizer.o [4]
-equalizer_nextEffect     0x800'25ef    0x24  Code  Gb  equalizer.o [4]
-equalizer_setPixel       0x800'2621    0x70  Code  Gb  equalizer.o [4]
-exit                     0x800'2c7b     0x4  Code  Gb  exit.o [5]
-init_adc                 0x800'144d   0x162  Code  Lc  mircophone.o [4]
-init_timer               0x800'15af    0x7e  Code  Lc  mircophone.o [4]
-main                     0x800'2691    0x58  Code  Gb  main.o [4]
-memset                   0x800'1aa5    0x14  Code  Gb  memset.o [7]
-microphone_init          0x800'1401    0x4c  Code  Gb  mircophone.o [4]
-touch_init               0x800'2789    0x46  Code  Gb  touch.o [4]
-touch_pressed            0x800'27dd     0x8  Code  Gb  touch.o [4]
-uwTick                  0x2000'1adc     0x4  Data  Gb  stm32f1xx_hal.o [3]
-uwTickFreq              0x2000'012d     0x1  Data  Gb  stm32f1xx_hal.o [3]
-uwTickPrio              0x2000'0010     0x4  Data  Gb  stm32f1xx_hal.o [3]
+_call_main               0x800'7249          Code  Gb  cmain.o [8]
+_exit                    0x800'7265          Code  Gb  cexit.o [8]
+adcLevelFTT             0x2000'1dc4     0x4  Data  Lc  main.o [5]
+adcValues               0x2000'1c20    0x80  Data  Lc  mircophone.o [5]
+adcValuesReady          0x2000'1dcf     0x1  Data  Lc  mircophone.o [5]
+armBitRevIndexTable128   0x800'6a68   0x1a0  Data  Gb  arm_common_tables.o [3]
+armBitRevIndexTable16    0x800'71cc    0x28  Data  Gb  arm_common_tables.o [3]
+armBitRevIndexTable256   0x800'62f8   0x370  Data  Gb  arm_common_tables.o [3]
+armBitRevIndexTable32    0x800'70e8    0x60  Data  Gb  arm_common_tables.o [3]
+armBitRevIndexTable64    0x800'7078    0x70  Data  Gb  arm_common_tables.o [3]
+arm_bitreversal_16       0x800'1823          Code  Gb  arm_bitreversal2.o [3]
+arm_bitreversal_32       0x800'17b9          Code  Gb  arm_bitreversal2.o [3]
+arm_cfft_f32             0x800'0ad1    0xf6  Code  Gb  arm_cfft_f32.o [3]
+arm_cfft_radix8by2_f32   0x800'00ed   0x288  Code  Gb  arm_cfft_f32.o [3]
+arm_cfft_radix8by4_f32   0x800'0375   0x75c  Code  Gb  arm_cfft_f32.o [3]
+arm_radix8_butterfly_f32
+                         0x800'0e49   0x970  Code  Gb  arm_cfft_radix8_f32.o [3]
+arm_rfft_fast_f32        0x800'4d83    0x58  Code  Gb  arm_rfft_fast_f32.o [3]
+arm_rfft_fast_init_f32   0x800'4fb1    0xd4  Code  Gb  arm_rfft_fast_init_f32.o [3]
+complexABS               0x800'40a3    0x24  Code  Lc  mircophone.o [5]
+effect_1                 0x800'7284    0x1c  Data  Lc  equalizer.o [5]
+effect_2                 0x800'72a0    0x1c  Data  Lc  equalizer.o [5]
+effect_3                 0x800'72bc    0x1c  Data  Lc  equalizer.o [5]
+effect_4                 0x800'72d8    0x1c  Data  Lc  equalizer.o [5]
+effects                 0x2000'0000    0x10  Data  Lc  equalizer.o [5]
+equalizer               0x2000'1db4    0x10  Data  Lc  equalizer.o [5]
+equalizerSet            0x2000'1b30    0xf0  Data  Lc  equalizer.o [5]
+equalizer_convertDB      0x800'55c9    0x22  Code  Gb  equalizer.o [5]
+equalizer_init           0x800'51c9    0xc6  Code  Gb  equalizer.o [5]
+equalizer_setLevelBar    0x800'528f   0x33a  Code  Gb  equalizer.o [5]
+equalizer_setPixel       0x800'55fd    0x70  Code  Gb  equalizer.o [5]
+exit                     0x800'725f     0x4  Code  Gb  exit.o [6]
+fft_db                  0x2000'1d2c    0x40  Data  Lc  mircophone.o [5]
+fft_handler             0x2000'1d9c    0x18  Data  Lc  mircophone.o [5]
+fft_in                  0x2000'1a30   0x100  Data  Lc  mircophone.o [5]
+fft_out                 0x2000'1930   0x100  Data  Lc  mircophone.o [5]
+frexpf                   0x800'50fd          Code  Gb  frexpf.o [7]
+init_adc                 0x800'3da9   0x17e  Code  Lc  mircophone.o [5]
+init_fft                 0x800'4087    0x1c  Code  Lc  mircophone.o [5]
+init_timer               0x800'3f27    0x80  Code  Lc  mircophone.o [5]
+init_timer::PrescalerValue
+                        0x2000'1dcc     0x2  Data  Lc  mircophone.o [5]
+ldexpf                   0x800'513d          Code  Gb  ldexpf.o [7]
+ledLevel                0x2000'1dce     0x1  Data  Lc  main.o [5]
+log10f                   0x800'4f85     0x4  Code  Gb  logx32.o [7]
+mDB                      0x800'7358     0x4  Data  Lc  equalizer.o [5]
+main                     0x800'6e09    0x74  Code  Gb  main.o [5]
+memset                   0x800'6f25    0x14  Code  Gb  memset.o [8]
+merge_rfft_f32           0x800'4c63   0x120  Code  Gb  arm_rfft_fast_f32.o [3]
+microphone_ftt           0x800'3fa7    0xce  Code  Gb  mircophone.o [5]
+microphone_init          0x800'3d49    0x60  Code  Gb  mircophone.o [5]
+microphone_startAdc      0x800'40c7    0x18  Code  Gb  mircophone.o [5]
+scalblnf                 0x800'513d          Code  Gb  ldexpf.o [7]
+scalbnf                  0x800'513d          Code  Gb  ldexpf.o [7]
+sqrtf                    0x800'5085          Code  Gb  sqrtf.o [7]
+stage_rfft_f32           0x800'4b15   0x14e  Code  Gb  arm_rfft_fast_f32.o [3]
+twiddleCoef_128          0x800'5af8   0x400  Data  Gb  arm_common_tables.o [3]
+twiddleCoef_16           0x800'6f78    0x80  Data  Gb  arm_common_tables.o [3]
+twiddleCoef_256          0x800'19ac   0x800  Data  Gb  arm_common_tables.o [3]
+twiddleCoef_32           0x800'6c08   0x100  Data  Gb  arm_common_tables.o [3]
+twiddleCoef_64           0x800'6668   0x200  Data  Gb  arm_common_tables.o [3]
+twiddleCoef_rfft_128     0x800'6868   0x200  Data  Gb  arm_common_tables.o [3]
+twiddleCoef_rfft_256     0x800'5ef8   0x400  Data  Gb  arm_common_tables.o [3]
+twiddleCoef_rfft_32      0x800'6ff8    0x80  Data  Gb  arm_common_tables.o [3]
+twiddleCoef_rfft_512     0x800'21ac   0x800  Data  Gb  arm_common_tables.o [3]
+twiddleCoef_rfft_64      0x800'6d08   0x100  Data  Gb  arm_common_tables.o [3]
+uwTick                  0x2000'1dc8     0x4  Data  Gb  stm32f1xx_hal.o [4]
+uwTickFreq              0x2000'012d     0x1  Data  Gb  stm32f1xx_hal.o [4]
+uwTickPrio              0x2000'0010     0x4  Data  Gb  stm32f1xx_hal.o [4]
 
 
 [1] = D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\AudioVisualizerBar\Obj\Application\EWARM
 [2] = D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\AudioVisualizerBar\Obj\Application\EWARM\Drivers\CMSIS
-[3] = D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\AudioVisualizerBar\Obj\Application\EWARM\Drivers\STM32F1xx_HAL_Driver
-[4] = D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\AudioVisualizerBar\Obj\Application\User\Src
-[5] = dl7M_tlf.a
-[6] = m7M_tl.a
-[7] = rt7M_tl.a
-[8] = shb_l.a
+[3] = D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\AudioVisualizerBar\Obj\Application\EWARM\Drivers\MATH
+[4] = D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\AudioVisualizerBar\Obj\Application\EWARM\Drivers\STM32F1xx_HAL_Driver
+[5] = D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\AudioVisualizerBar\Obj\Application\User\Src
+[6] = dl7M_tlf.a
+[7] = m7M_tl.a
+[8] = rt7M_tl.a
+[9] = shb_l.a
 
-  10'798 bytes of readonly  code memory
-     908 bytes of readonly  data memory
-   7'903 bytes of readwrite data memory
+  20'000 bytes of readonly  code memory
+   9'722 bytes of readonly  data memory
+   8'654 bytes of readwrite data memory
 
 Errors: none
 Warnings: none
