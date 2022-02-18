@@ -130,7 +130,7 @@ VISUALIZER_StatusTypeDef visualizer_init( void )
       visualizerSet[bar].levelTop      = 0;
       visualizerSet[bar].levelTopTime  = 0;
       visualizerSet[bar].level         = 0;
-      visualizerSet[bar].effectIndex   = 0;
+      visualizerSet[bar].effectIndex   = 2;
       visualizerSet[bar].effect        = effects[visualizerSet[bar].effectIndex%NR_OF_EFFECTS];
       visualizerSet[bar].effectChanged = SET;
    }
@@ -201,9 +201,9 @@ void visualizer_setLevelBar( uint8_t bar, uint8_t level )
    // draw the bar
    for( uint8_t i=0; i<visualizerSet[bar].levelFil; i++ )
    {
-      visualizer_setPixel( bar, i, *(visualizerSet[bar].effect+i*3+0), *(visualizerSet[bar].effect+i*3+1), *(visualizerSet[bar].effect+i*3+2) ); 
+      visualizer_setPixel_180deg( bar, i, *(visualizerSet[bar].effect+i*3+0), *(visualizerSet[bar].effect+i*3+1), *(visualizerSet[bar].effect+i*3+2) ); 
    }
-   visualizer_setPixel( bar, visualizerSet[bar].levelTop, 0xFF, 0x00, 0x00 );
+   visualizer_setPixel_180deg( bar, visualizerSet[bar].levelTop, 0xFF, 0x00, 0x00 );
 }
 
 // ----------------------------------------------------------------------------
@@ -266,7 +266,7 @@ uint8_t visualizer_convertDB( uint32_t dbValue )
 /// \param     [in]  uint8_t blue
 ///
 /// \return    none
-void visualizer_setPixel( uint8_t x, uint8_t y, uint8_t red, uint8_t green, uint8_t blue )
+void visualizer_setPixel_0deg( uint8_t x, uint8_t y, uint8_t red, uint8_t green, uint8_t blue )
 {  
    uint8_t ledNr;
    
@@ -281,5 +281,23 @@ void visualizer_setPixel( uint8_t x, uint8_t y, uint8_t red, uint8_t green, uint
    {
       ledNr = y*8+7-x;
       WS2812B_setPixel( 0, ledNr, red, green, blue ); 
+   }
+}
+
+void visualizer_setPixel_180deg( uint8_t x, uint8_t y, uint8_t red, uint8_t green, uint8_t blue )
+{  
+   uint8_t ledNr;
+   
+   // select tile
+   if( x > 7 )
+   {
+      x -= 8;
+      ledNr = (7-y)*8+x;
+      WS2812B_setPixel( 0, ledNr, red, green, blue ); 
+   }
+   else
+   {
+      ledNr = (7-y)*8+x;
+      WS2812B_setPixel( 1, ledNr, red, green, blue ); 
    }
 }

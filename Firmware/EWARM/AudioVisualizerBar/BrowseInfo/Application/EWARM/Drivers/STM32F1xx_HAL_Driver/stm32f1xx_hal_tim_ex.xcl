@@ -227,7 +227,6 @@ D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\Drivers\CMSIS\DSP\Include
 -D__DEF_STACK_MEM_INDEX__=0
 -D__PRAGMA_PACK_ON__=1
 -D__MULTIPLE_INHERITANCE__=1
--D__FOR_DEBUG__=
 -D__AAPCS__=1
 -D__ARM4TM__=4
 -D__ARM5TM__=5

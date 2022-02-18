@@ -65,10 +65,11 @@ typedef enum
 } VISUALIZER_StatusTypeDef;
 
 // Exported functions *********************************************************
-VISUALIZER_StatusTypeDef    visualizer_init          ( void );
-void                       visualizer_nextEffect    ( void );
-uint8_t                    visualizer_convertABS    ( uint32_t adcValue );
-void                       visualizer_setLevelBar   ( uint8_t bar, uint8_t level );
-void                       visualizer_setPixel      ( uint8_t x, uint8_t y, uint8_t red, uint8_t green, uint8_t blue );
-uint8_t                    visualizer_convertDB     ( uint32_t dbValue );
+VISUALIZER_StatusTypeDef    visualizer_init           ( void );
+void                       visualizer_nextEffect      ( void );
+uint8_t                    visualizer_convertABS      ( uint32_t adcValue );
+void                       visualizer_setLevelBar     ( uint8_t bar, uint8_t level );
+void                       visualizer_setPixel_0deg   ( uint8_t x, uint8_t y, uint8_t red, uint8_t green, uint8_t blue );
+void                       visualizer_setPixel_180deg ( uint8_t x, uint8_t y, uint8_t red, uint8_t green, uint8_t blue );
+uint8_t                    visualizer_convertDB       ( uint32_t dbValue );
 #endif // __VISUALIZER_H

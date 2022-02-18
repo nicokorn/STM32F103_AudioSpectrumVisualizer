@@ -113,26 +113,35 @@ void  SystemClock_Config(void);
    
    while (1)
    {
-      // get ftt adc levels
+      // get ftt adc values
       adcLevelFTT = microphone_ftt();
 
-      // draw an display the frequency bars
+      // clear led buffer
       WS2812B_clearBuffer();
+      
+      // draw the bars into the led buffer
       for(uint8_t bar=0; bar<NR_OF_COLS; bar++)
       {
-         // convert adc value into led level
-         ledLevel = visualizer_convertDB( adcLevelFTT[bar+2] );
-         
-         // set and show led
-         visualizer_setLevelBar( bar, ledLevel );
+         if( bar < NR_OF_COLS-1 )
+         {
+            // convert adc value into led level
+            ledLevel = visualizer_convertDB( adcLevelFTT[2*bar+2] );
+            
+            // set and show led
+            visualizer_setLevelBar( bar, ledLevel );
+         }
+         else
+         {
+            // convert adc value into led level
+            ledLevel = visualizer_convertDB( adcLevelFTT[31] );
+            
+            // set and show led
+            visualizer_setLevelBar( bar, ledLevel );
+         }
       }
-      // convert adc value into led level
-      ledLevel = visualizer_convertDB( adcLevelFTT[31] );
-      
-      // set and show led
-      visualizer_setLevelBar( 15, ledLevel );
-      WS2812B_sendBuffer();
-      microphone_startAdc();
+
+      // send the led buffer to the leds
+      WS2812B_sendBuffer();      
    }
 }
 

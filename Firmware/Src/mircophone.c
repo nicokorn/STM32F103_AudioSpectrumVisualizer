@@ -297,6 +297,9 @@ uint16_t* microphone_ftt( void )
       }
    }
    
+   // start next adc sampling
+   microphone_startAdc();
+   
    return fft_db;
 }
 
