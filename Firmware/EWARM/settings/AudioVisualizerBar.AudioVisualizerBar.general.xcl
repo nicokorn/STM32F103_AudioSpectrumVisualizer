@@ -2,7 +2,7 @@
 
 "C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\bin\armJLINK.dll" 
 
-"D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\AudioVisualizerBar\Exe\AudioVisualizerBar.out" 
+"D:\GitHub\STM32F103_AudioSpectrumVisualizer\Firmware\EWARM\AudioVisualizerBar\Exe\AudioVisualizerBar.out" 
 
 --plugin="C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\bin\armbat.dll" 
 

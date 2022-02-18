@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\settings\AudioVisualizerBar.AudioVisualizerBar.general.xcl" --backend -f "D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\settings\AudioVisualizerBar.AudioVisualizerBar.driver.xcl" 
+& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "D:\GitHub\STM32F103_AudioSpectrumVisualizer\Firmware\EWARM\settings\AudioVisualizerBar.AudioVisualizerBar.general.xcl" --backend -f "D:\GitHub\STM32F103_AudioSpectrumVisualizer\Firmware\EWARM\settings\AudioVisualizerBar.AudioVisualizerBar.driver.xcl" 
 }
 else
 {
-& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\settings\AudioVisualizerBar.AudioVisualizerBar.general.xcl" --debug_file=$debugfile --backend -f "D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\settings\AudioVisualizerBar.AudioVisualizerBar.driver.xcl" 
+& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "D:\GitHub\STM32F103_AudioSpectrumVisualizer\Firmware\EWARM\settings\AudioVisualizerBar.AudioVisualizerBar.general.xcl" --debug_file=$debugfile --backend -f "D:\GitHub\STM32F103_AudioSpectrumVisualizer\Firmware\EWARM\settings\AudioVisualizerBar.AudioVisualizerBar.driver.xcl" 
 }

@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\settings\AudioVisualizerBar.AudioVisualizerBar.general.xcl" --backend -f "D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\settings\AudioVisualizerBar.AudioVisualizerBar.driver.xcl" 
+"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "D:\GitHub\STM32F103_AudioSpectrumVisualizer\Firmware\EWARM\settings\AudioVisualizerBar.AudioVisualizerBar.general.xcl" --backend -f "D:\GitHub\STM32F103_AudioSpectrumVisualizer\Firmware\EWARM\settings\AudioVisualizerBar.AudioVisualizerBar.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\settings\AudioVisualizerBar.AudioVisualizerBar.general.xcl" "--debug_file=%~1" --backend -f "D:\GitHub\STM32F103_AudioSpectrumAnalyzer\Firmware\EWARM\settings\AudioVisualizerBar.AudioVisualizerBar.driver.xcl" 
+"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "D:\GitHub\STM32F103_AudioSpectrumVisualizer\Firmware\EWARM\settings\AudioVisualizerBar.AudioVisualizerBar.general.xcl" "--debug_file=%~1" --backend -f "D:\GitHub\STM32F103_AudioSpectrumVisualizer\Firmware\EWARM\settings\AudioVisualizerBar.AudioVisualizerBar.driver.xcl" 
 
 @echo off 
 :end
