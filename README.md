@@ -17,27 +17,18 @@
 https://www.youtube.com/watch?v=lWBqOENIxeE
 
 <h2>Pictures</h2>
-<p>Housing design in Autocad</p>
-<img src="https://github.com/nicokorn/STM32F103_AudioVisualizerBar/blob/main/docs/AutoCad1.PNG" alt="autocad1">
-<img src="https://github.com/nicokorn/STM32F103_AudioVisualizerBar/blob/main/docs/AutoCad2.PNG" alt="autocad2">
-<p>Preparing 3D printing</p>
-<img src="https://github.com/nicokorn/STM32F103_AudioVisualizerBar/blob/main/docs/3dPrint1.PNG" alt="3d1">
-<p>3D printing result</p>
-<img src="https://github.com/nicokorn/STM32F103_AudioVisualizerBar/blob/main/docs/3dresult.jpg" alt="result">
-<p>Mounting led stripe</p>
-<img src="https://github.com/nicokorn/STM32F103_AudioVisualizerBar/blob/main/docs/led1.jpg" alt="led1">
-<img src="https://github.com/nicokorn/STM32F103_AudioVisualizerBar/blob/main/docs/led2.jpg" alt="led2">
-<img src="https://github.com/nicokorn/STM32F103_AudioVisualizerBar/blob/main/docs/led3.jpg" alt="led3">
+<p>Housing design in Fusion365</p>
+<img src="https://github.com/nicokorn/STM32F103_AudioSpectrumVisualizer/blob/main/docs/cad1.JPG" alt="fusion365">
 <p>Put housing and electronics together</p>
-<img src="https://github.com/nicokorn/STM32F103_AudioVisualizerBar/blob/main/docs/inside1.jpg" alt="inside1">
-<img src="https://github.com/nicokorn/STM32F103_AudioVisualizerBar/blob/main/docs/inside2.jpg" alt="inside2">
-<img src="https://github.com/nicokorn/STM32F103_AudioVisualizerBar/blob/main/docs/inside3.jpg" alt="inside3">
+<img src="https://github.com/nicokorn/STM32F103_AudioSpectrumVisualizer/blob/main/docs/housing1.jpg" alt="housing1">
+<img src="https://github.com/nicokorn/STM32F103_AudioSpectrumVisualizer/blob/main/docs/housing2.jpg" alt="housing2">
+<img src="https://github.com/nicokorn/STM32F103_AudioSpectrumVisualizer/blob/main/docs/housing3.jpg" alt="housing3">
+<img src="https://github.com/nicokorn/STM32F103_AudioSpectrumVisualizer/blob/main/docs/housing4.jpg" alt="housing4">
+<img src="https://github.com/nicokorn/STM32F103_AudioSpectrumVisualizer/blob/main/docs/housing5.jpg" alt="housing5">
 <p>Wiring</p>
-<img src="https://github.com/nicokorn/STM32F103_AudioVisualizerBar/blob/main/docs/wiring.PNG" alt="wiring">
+<img src="https://github.com/nicokorn/STM32F103_AudioSpectrumVisualizer/blob/main/docs/schematic1.jpg" alt="wiring">
 <p>Finish</p>
-<img src="https://github.com/nicokorn/STM32F103_AudioVisualizerBar/blob/main/docs/outside1.jpg" alt="outside1">
-<img src="https://github.com/nicokorn/STM32F103_AudioVisualizerBar/blob/main/docs/outside2.jpg" alt="outside2">
-<img src="https://github.com/nicokorn/STM32F103_AudioVisualizerBar/blob/main/docs/outside3.jpg" alt="outside3">
+<img src="https://github.com/nicokorn/STM32F103_AudioSpectrumVisualizer/blob/main/docs/finish1.jpg" alt="outside1">
 
 </body>
 </html>
