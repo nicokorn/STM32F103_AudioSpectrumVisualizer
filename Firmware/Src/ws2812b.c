@@ -240,13 +240,13 @@ static WS2812B_StatusTypeDef init_dma( void )
 /// \return    WS2812B_StatusTypeDef
 static WS2812B_StatusTypeDef init_gpio( void )
 {
-   __HAL_RCC_GPIOA_CLK_ENABLE();                        //enable clock on the bus
+   __HAL_RCC_GPIOA_CLK_ENABLE();                         //enable clock on the bus
    GPIO_InitTypeDef GPIO_InitStruct;               
-   GPIO_InitStruct.Pin          = GPIO_PIN_0|GPIO_PIN_1;           // if you want also to use pin 1, then write GPIO_PIN_0 | GPIO_PIN_1 => GPIO_PIN_1 would be the second led row
-   GPIO_InitStruct.Mode         = GPIO_MODE_OUTPUT_PP;  // configure pins for pp output
-   GPIO_InitStruct.Speed        = GPIO_SPEED_FREQ_HIGH; // 50 MHz rate
-   GPIO_InitStruct.Pull         = GPIO_NOPULL;          // this disables the pullup resistors on the IO pins
-   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);              // setting GPIO registers
+   GPIO_InitStruct.Pin          = GPIO_PIN_0|GPIO_PIN_1; // each additional pin is another data output for a separate ws2812b led stripe
+   GPIO_InitStruct.Mode         = GPIO_MODE_OUTPUT_PP;   // configure pins for pp output
+   GPIO_InitStruct.Speed        = GPIO_SPEED_FREQ_HIGH;  // 50 MHz rate
+   GPIO_InitStruct.Pull         = GPIO_NOPULL;           // this disables the pullup resistors on the IO pins
+   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);               // setting GPIO registers
         
    return WS2812B_OK;
 }
@@ -459,8 +459,8 @@ void WS2812B_clearBuffer( void )
 // ----------------------------------------------------------------------------
 /// \brief      This function sets the color of a single pixel.
 ///
-/// \param      [in]    uint8_t row
-/// \param      [in]    uint16_t col
+/// \param      [in]    uint8_t row: each row is a seperate data output to a ws2812b stripe
+/// \param      [in]    uint16_t col: col is the pixelnumber on a ws2812b stripe
 /// \param      [in]    uint8_t red
 /// \param      [in]    uint8_t green
 /// \param      [in]    uint8_t blue

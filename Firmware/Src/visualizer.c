@@ -49,7 +49,6 @@
 // Private define *************************************************************
 #define NR_OF_EFFECTS     ( 4u )
 #define NR_OF_BARS        ( 16u )
-#define EFFECT_OPT_FADE   ( 0x01 )
 
 // Private types     **********************************************************
 typedef __packed struct visualizer_s{
@@ -66,45 +65,45 @@ typedef __packed struct visualizer_s{
 }euqalizer_t;
 
 // Private variables **********************************************************
-static const uint8_t effect_1[NR_OF_ROWS+1][3] = { { 0x00, 0xff, 0x00 },     // 1. bar
-                                                   { 0x00, 0xff, 0x00 },     // 2. bar
-                                                   { 0x00, 0xff, 0x00 },     // 3. bar
-                                                   { 0x00, 0xff, 0x00 },     // 4. bar
-                                                   { 0x00, 0xff, 0x00 },     // 5. bar
-                                                   { 0xff, 0x80, 0x00 },     // 6. bar
-                                                   { 0xff, 0x80, 0x00 },     // 7. bar
-                                                   { 0xff, 0x00, 0x00 },     // 8. bar
-                                                   { 0x00, 0x00, 0x00 } };    // reserved for effect option flags
+static const uint8_t effect_1[NR_OF_ROWS+1][3] = { { 0x00, 0xff, 0x00 },     // 1. barlevel
+                                                   { 0x00, 0xff, 0x00 },     // 2. barlevel
+                                                   { 0x00, 0xff, 0x00 },     // 3. barlevel
+                                                   { 0x00, 0xff, 0x00 },     // 4. barlevel
+                                                   { 0x00, 0xff, 0x00 },     // 5. barlevel
+                                                   { 0xff, 0x80, 0x00 },     // 6. barlevel
+                                                   { 0xff, 0x80, 0x00 },     // 7. barlevel
+                                                   { 0xff, 0x00, 0x00 },     // 8. barlevel
+                                                   { 0x00, 0x00, 0x00 } };   // reserved for effect option flags
 
-static const uint8_t effect_2[NR_OF_ROWS+1][3] = { { 0x00, 0x00, 0xff },     
-                                                   { 0x22, 0x00, 0xdd },
-                                                   { 0x44, 0x00, 0xbb },
-                                                   { 0x66, 0x00, 0x99 },
-                                                   { 0x99, 0x00, 0x66 },
-                                                   { 0xbb, 0x00, 0x44 },
-                                                   { 0xdd, 0x00, 0x22 },
-                                                   { 0xff, 0x00, 0x00 },
-                                                   { 0x00, 0x00, 0x00 } };    // reserved for effect option flags
+static const uint8_t effect_2[NR_OF_ROWS+1][3] = { { 0x00, 0x00, 0xff },     // 1. barlevel
+                                                   { 0x22, 0x00, 0xdd },     // 2. barlevel
+                                                   { 0x44, 0x00, 0xbb },     // 3. barlevel
+                                                   { 0x66, 0x00, 0x99 },     // 4. barlevel
+                                                   { 0x99, 0x00, 0x66 },     // 5. barlevel
+                                                   { 0xbb, 0x00, 0x44 },     // 6. barlevel
+                                                   { 0xdd, 0x00, 0x22 },     // 7. barlevel
+                                                   { 0xff, 0x00, 0x00 },     // 8. barlevel
+                                                   { 0x00, 0x00, 0x00 } };   // reserved for effect option flags
 
-static const uint8_t effect_3[NR_OF_ROWS+1][3] = { { 0x00, 0xff, 0x00 },
-                                                   { 0x00, 0xdd, 0x22 },
-                                                   { 0x00, 0xbb, 0x44 },
-                                                   { 0x00, 0x99, 0x66 },
-                                                   { 0x00, 0x77, 0x88 },
-                                                   { 0x00, 0x55, 0xaa },
-                                                   { 0x00, 0x33, 0xcc },
-                                                   { 0x00, 0x11, 0xee },
-                                                   { 0x00, 0x00, 0x00 } };    // reserved for effect option flags
+static const uint8_t effect_3[NR_OF_ROWS+1][3] = { { 0x00, 0xff, 0x00 },     // 1. barlevel
+                                                   { 0x00, 0xdd, 0x22 },     // 2. barlevel
+                                                   { 0x00, 0xbb, 0x44 },     // 3. barlevel
+                                                   { 0x00, 0x99, 0x66 },     // 4. barlevel
+                                                   { 0x00, 0x77, 0x88 },     // 5. barlevel
+                                                   { 0x00, 0x55, 0xaa },     // 6. barlevel
+                                                   { 0x00, 0x33, 0xcc },     // 7. barlevel
+                                                   { 0x00, 0x11, 0xee },     // 8. barlevel
+                                                   { 0x00, 0x00, 0x00 } };   // reserved for effect option flags
 
-static const uint8_t effect_4[NR_OF_ROWS+1][3] = { { 0xb2, 0x0e, 0x00 },     
-                                                   { 0xbd, 0x2b, 0x00 },
-                                                   { 0xc8, 0x48, 0x00 },
-                                                   { 0xd3, 0x64, 0x00 },
-                                                   { 0xde, 0x81, 0x00 },
-                                                   { 0xe9, 0x9e, 0x00 },
-                                                   { 0xf4, 0xba, 0x00 },
-                                                   { 0xff, 0xd7, 0x00 },
-                                                   { 0x00, 0x00, 0x00 } };    // reserved for effect option flags
+static const uint8_t effect_4[NR_OF_ROWS+1][3] = { { 0xb2, 0x0e, 0x00 },     // 1. barlevel
+                                                   { 0xbd, 0x2b, 0x00 },     // 2. barlevel
+                                                   { 0xc8, 0x48, 0x00 },     // 3. barlevel
+                                                   { 0xd3, 0x64, 0x00 },     // 4. barlevel
+                                                   { 0xde, 0x81, 0x00 },     // 5. barlevel
+                                                   { 0xe9, 0x9e, 0x00 },     // 6. barlevel
+                                                   { 0xf4, 0xba, 0x00 },     // 7. barlevel
+                                                   { 0xff, 0xd7, 0x00 },     // 8. barlevel
+                                                   { 0x00, 0x00, 0x00 } };   // reserved for effect option flags
 
 static const uint8_t *effects[NR_OF_EFFECTS] = { &effect_1[0][0], &effect_2[0][0], &effect_3[0][0], &effect_4[0][0] };
 static euqalizer_t visualizerSet[NR_OF_BARS];
@@ -130,7 +129,7 @@ VISUALIZER_StatusTypeDef visualizer_init( void )
       visualizerSet[bar].levelTop      = 0;
       visualizerSet[bar].levelTopTime  = 0;
       visualizerSet[bar].level         = 0;
-      visualizerSet[bar].effectIndex   = 2;
+      visualizerSet[bar].effectIndex   = 2;  // choose an effect pattern as default from the effect arrays
       visualizerSet[bar].effect        = effects[visualizerSet[bar].effectIndex%NR_OF_EFFECTS];
       visualizerSet[bar].effectChanged = SET;
    }
@@ -224,7 +223,8 @@ void visualizer_nextEffect( void )
 }
 
 // ----------------------------------------------------------------------------
-/// \brief     Convert absolute adc value to 8 leds.
+/// \brief     Convert absolute value to 8 leds of a audiobar. A linear function
+///            is used to do the conversion.
 ///
 /// \param     [in] uint32_t adcValue
 ///
@@ -239,7 +239,8 @@ uint8_t visualizer_convertABS( uint32_t absValue )
 }
 
 // ----------------------------------------------------------------------------
-/// \brief     Convert decibel adc value to 15 leds.
+/// \brief     Convert decibel value to 8 leds of a audiobar. A linear function
+///            is used to do the conversion.
 ///
 /// \param     [in] uint32_t dbValue
 ///
@@ -258,6 +259,7 @@ uint8_t visualizer_convertDB( uint32_t dbValue )
 ///            converted to the led number on the stripe. Color is controlled
 ///            with the red, green, blue arguments which will be interpreted as
 ///            rgb color.
+///            0 degree orientation of the Audio Spectrum Visualizer.
 ///
 /// \param     [in]  uint8_t x
 /// \param     [in]  uint8_t y
@@ -284,6 +286,20 @@ void visualizer_setPixel_0deg( uint8_t x, uint8_t y, uint8_t red, uint8_t green,
    }
 }
 
+// ----------------------------------------------------------------------------
+/// \brief     Set pixel with x/y coordinates. The x/y coordinates will be
+///            converted to the led number on the stripe. Color is controlled
+///            with the red, green, blue arguments which will be interpreted as
+///            rgb color.
+///            180 degree orientation of the Audio Spectrum Visualizer.
+///
+/// \param     [in]  uint8_t x
+/// \param     [in]  uint8_t y
+/// \param     [in]  uint8_t red
+/// \param     [in]  uint8_t green
+/// \param     [in]  uint8_t blue
+///
+/// \return    none
 void visualizer_setPixel_180deg( uint8_t x, uint8_t y, uint8_t red, uint8_t green, uint8_t blue )
 {  
    uint8_t ledNr;

@@ -46,7 +46,7 @@
 #include "arm_math.h"
 
 // Private define *************************************************************
-#define ADC_BUFFER_SIZE          ( 64u )     // Size of array containing ADC converted values
+#define ADC_BUFFER_SIZE          ( 64u )     // Size of array containing ADC values
 #define SAMPLING_FREQUENCY       ( 8000u )   // 8 kHz
 #define FFT_NUMBER_SAMPLES       ADC_BUFFER_SIZE
 
@@ -199,7 +199,7 @@ static MICROPHONE_StatusTypeDef init_adc( void )
 
    __HAL_LINKDMA(&ADC_Handle,DMA_Handle,DMA_Handle_ADC);
    
-   // NVIC configuration for DMA interrupt (transfer completion or error)
+   // NVIC configuration for DMA interrupt
    HAL_NVIC_SetPriority(DMA1_Channel1_IRQn, 3, 0);
    HAL_NVIC_EnableIRQ(DMA1_Channel1_IRQn);
 
@@ -211,7 +211,7 @@ static MICROPHONE_StatusTypeDef init_adc( void )
 }
 
 // ----------------------------------------------------------------------------
-/// \brief     Init triggering timer. Configure to 8 kHz.
+/// \brief     Init triggering timer. Configure to 8 kHz evevnts.
 ///
 /// \param     none
 ///
@@ -224,14 +224,14 @@ static MICROPHONE_StatusTypeDef init_timer( void )
    // TIM3 Periph clock enable
    __HAL_RCC_TIM3_CLK_ENABLE();
    
-   // set prescaler to get a 8kHz clock signal
+   // set prescaler to get a 80kHz timer
    PrescalerValue = (uint16_t) (SystemCoreClock / (SAMPLING_FREQUENCY*10)) - 1;
 
-   /* Set timer instance */
+   // Set timer instance
    TIM_Handle.Instance = TIM3;
    
-   /* Configure timer parameters */
-   TIM_Handle.Init.Period            = 9; // period = 10-1 to have 8 khz
+   // Configure timer parameters
+   TIM_Handle.Init.Period            = 9; // period = 10-1 to have 8 khz events
    TIM_Handle.Init.Prescaler         = PrescalerValue;
    TIM_Handle.Init.ClockDivision     = TIM_CLOCKDIVISION_DIV1;
    TIM_Handle.Init.CounterMode       = TIM_COUNTERMODE_UP;
@@ -243,7 +243,7 @@ static MICROPHONE_StatusTypeDef init_timer( void )
       return MICROPHONE_ERROR;
    }
    
-   /* Timer TRGO selection */
+   // Timer TRGO selection
    master_timer_config.MasterOutputTrigger = TIM_TRGO_UPDATE;
    master_timer_config.MasterSlaveMode = TIM_MASTERSLAVEMODE_DISABLE;
    
@@ -257,11 +257,12 @@ static MICROPHONE_StatusTypeDef init_timer( void )
 }
 
 // ----------------------------------------------------------------------------
-/// \brief     ...
+/// \brief     This funtion computes adc convertions from the fft time domain 
+///            to frequency domain.
 ///
 /// \param     none
 ///
-/// \return    uint16_t*
+/// \return    uint16_t* amplitudes
 uint16_t* microphone_ftt( void )
 {   
    while( adcValuesReady != SET );
