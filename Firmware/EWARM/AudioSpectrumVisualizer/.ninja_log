@@ -316,3 +316,9 @@
 2	308	6669789846443660	D:/GitHub/STM32F103_AudioSpectrumVisualizer/Firmware/EWARM/AudioSpectrumVisualizer/Obj/Application/User/Src/visualizer.o	c313a8f9b5a12d0f
 315	412	6669789847505608	D:/GitHub/STM32F103_AudioSpectrumVisualizer/Firmware/EWARM/AudioSpectrumVisualizer/Exe/AudioSpectrumVisualizer.out	b7a402fcc2cf3ca6
 461	486	6669789848324383	D:/GitHub/STM32F103_AudioSpectrumVisualizer/Firmware/EWARM/AudioSpectrumVisualizer/Exe/AudioSpectrumVisualizer.hex	fa175f1081df937e
+12	344	6669795244075224	D:/GitHub/STM32F103_AudioSpectrumVisualizer/Firmware/EWARM/AudioSpectrumVisualizer/Obj/Application/User/Src/touch.o	b2b8b8c007ff5820
+2	384	6669795244474467	D:/GitHub/STM32F103_AudioSpectrumVisualizer/Firmware/EWARM/AudioSpectrumVisualizer/Obj/Application/User/Src/visualizer.o	c313a8f9b5a12d0f
+23	406	6669795244693563	D:/GitHub/STM32F103_AudioSpectrumVisualizer/Firmware/EWARM/AudioSpectrumVisualizer/Obj/Application/User/Src/main.o	260bf647c4dedb6d
+34	564	6669795246219512	D:/GitHub/STM32F103_AudioSpectrumVisualizer/Firmware/EWARM/AudioSpectrumVisualizer/Obj/Application/User/Src/mircophone.o	de09cacbe3ca6cad
+571	666	6669795247301360	D:/GitHub/STM32F103_AudioSpectrumVisualizer/Firmware/EWARM/AudioSpectrumVisualizer/Exe/AudioSpectrumVisualizer.out	b7a402fcc2cf3ca6
+712	742	6669795248138632	D:/GitHub/STM32F103_AudioSpectrumVisualizer/Firmware/EWARM/AudioSpectrumVisualizer/Exe/AudioSpectrumVisualizer.hex	fa175f1081df937e

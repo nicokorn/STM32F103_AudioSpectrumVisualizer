@@ -3,19 +3,15 @@
 ///
 /// \brief     Main C Source File
 ///
-/// \details   This is the soundbar visualizer sourcecode. A microphone is
-///            attached to the microntrollers adc. The average adc values are
-///            used to set the visualizer bar.
+/// \details   This is the audio spectrum visualizer sourcecode. A microphone is
+///            attached to the microntrollers adc. The adc values are used with
+///            a ftt algorithm to transform the values from time domain into
+///            frequency domain for the spectrum visualisation on 2 ws2812b led
+///            boards with total 8*16 resolution.
 ///            The adc is triggered by a timer wich period is set to 8 kHz thus
 ///            the adc samples with 8 kHz. Because the interesting sound
 ///            information can be found up to 4 kHz and to fullfill Nyquists
-///            theorem the sampling is set to 8 kHz. An irq is triggered
-///            everytime 8 samples has been converted thus every 1 ms.
-///            Sampling and loading data into the ws2812b leds is done at the
-///            same time by the peripherals. The main loop is used to averrage
-///            the sampled adc values, convert them into the visualizer bar
-///            level and triggering the peripherals to start write led data
-///            into the led stripe. 
+///            theorem the sampling is set to 8 kHz.
 ///
 /// \author    Nico Korn
 ///

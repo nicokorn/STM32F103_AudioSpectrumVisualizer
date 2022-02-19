@@ -3,7 +3,7 @@
 ///
 /// \brief     touch C Source File
 ///
-/// \details   Module for touch button.
+/// \details   C file for the touch button.
 ///
 /// \author    Nico Korn
 ///

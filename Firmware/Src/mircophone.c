@@ -3,7 +3,7 @@
 ///
 /// \brief     microphone C Source File
 ///
-/// \details   Module for microphone.
+/// \details   C file for microphone.
 ///
 /// \author    Nico Korn
 ///

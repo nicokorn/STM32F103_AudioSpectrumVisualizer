@@ -3,8 +3,8 @@
 ///
 /// \brief     visualizer C Source File
 ///
-/// \details   Module for visualizer. The visualizer is used to draw the bars
-///            on to the led stripe.
+/// \details   C file for visualizer. The visualizer is used to draw the bars
+///            on to the led stripes.
 ///
 /// \author    Nico Korn
 ///
