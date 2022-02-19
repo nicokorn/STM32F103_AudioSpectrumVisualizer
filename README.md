@@ -17,8 +17,9 @@
 https://www.youtube.com/watch?v=QXKAwUon5bw
 
 <h2>Pictures</h2>
-<p>Housing design in Fusion365</p>
-<img src="https://github.com/nicokorn/STM32F103_AudioSpectrumVisualizer/blob/main/docs/cad1.JPG" alt="fusion365">
+<p>Housing design in Autocad Fusion 365</p>
+<img src="https://github.com/nicokorn/STM32F103_AudioSpectrumVisualizer/blob/main/docs/cad2.JPG" alt="fusion3651">
+<img src="https://github.com/nicokorn/STM32F103_AudioSpectrumVisualizer/blob/main/docs/cad1.JPG" alt="fusion3652">
 <p>Put housing and electronics together</p>
 <img src="https://github.com/nicokorn/STM32F103_AudioSpectrumVisualizer/blob/main/docs/housing1.jpg" alt="housing1">
 <img src="https://github.com/nicokorn/STM32F103_AudioSpectrumVisualizer/blob/main/docs/housing2.jpg" alt="housing2">
