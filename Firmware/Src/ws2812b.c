@@ -177,12 +177,12 @@ static WS2812B_StatusTypeDef init_dma( void )
    // TIM2 Update event, High Output
    // DMA1 Channel2 configuration ----------------------------------------------
    DMA_HandleStruct_UEV.Instance                   = DMA1_Channel2;
-   DMA_HandleStruct_UEV.Init.Direction 			   = DMA_MEMORY_TO_PERIPH;
-   DMA_HandleStruct_UEV.Init.PeriphInc 			   = DMA_PINC_DISABLE;
+   DMA_HandleStruct_UEV.Init.Direction             = DMA_MEMORY_TO_PERIPH;
+   DMA_HandleStruct_UEV.Init.PeriphInc             = DMA_PINC_DISABLE;
    DMA_HandleStruct_UEV.Init.MemInc                = DMA_MINC_DISABLE;
    DMA_HandleStruct_UEV.Init.Mode                  = DMA_NORMAL;
    DMA_HandleStruct_UEV.Init.PeriphDataAlignment   = DMA_PDATAALIGN_HALFWORD;
-   DMA_HandleStruct_UEV.Init.MemDataAlignment 		= DMA_MDATAALIGN_HALFWORD;
+   DMA_HandleStruct_UEV.Init.MemDataAlignment      = DMA_MDATAALIGN_HALFWORD;
    DMA_HandleStruct_UEV.Init.Priority              = DMA_PRIORITY_HIGH;
    if(HAL_DMA_Init(&DMA_HandleStruct_UEV) != HAL_OK)
    {
@@ -192,12 +192,12 @@ static WS2812B_StatusTypeDef init_dma( void )
    // TIM2 CC1 event, Dataframe Output, needs bit incrementation on memory
    // DMA1 Channel5 configuration ----------------------------------------------
    DMA_HandleStruct_CC1.Instance                   = DMA1_Channel5;
-   DMA_HandleStruct_CC1.Init.Direction 		      = DMA_MEMORY_TO_PERIPH;
-   DMA_HandleStruct_CC1.Init.PeriphInc 		      = DMA_PINC_DISABLE;
+   DMA_HandleStruct_CC1.Init.Direction             = DMA_MEMORY_TO_PERIPH;
+   DMA_HandleStruct_CC1.Init.PeriphInc             = DMA_PINC_DISABLE;
    DMA_HandleStruct_CC1.Init.MemInc                = DMA_MINC_ENABLE;
    DMA_HandleStruct_CC1.Init.Mode                  = DMA_NORMAL;
-   DMA_HandleStruct_CC1.Init.PeriphDataAlignment 	= DMA_PDATAALIGN_HALFWORD;
-   DMA_HandleStruct_CC1.Init.MemDataAlignment 		= DMA_MDATAALIGN_HALFWORD;
+   DMA_HandleStruct_CC1.Init.PeriphDataAlignment   = DMA_PDATAALIGN_HALFWORD;
+   DMA_HandleStruct_CC1.Init.MemDataAlignment      = DMA_MDATAALIGN_HALFWORD;
    DMA_HandleStruct_CC1.Init.Priority              = DMA_PRIORITY_HIGH;
    if(HAL_DMA_Init(&DMA_HandleStruct_CC1) != HAL_OK)
    {
@@ -207,12 +207,12 @@ static WS2812B_StatusTypeDef init_dma( void )
    // TIM2 CC2 event, Low Output
    // DMA1 Channel7 configuration ----------------------------------------------
    DMA_HandleStruct_CC2.Instance                   = DMA1_Channel7;
-   DMA_HandleStruct_CC2.Init.Direction 			   = DMA_MEMORY_TO_PERIPH;
-   DMA_HandleStruct_CC2.Init.PeriphInc 			   = DMA_PINC_DISABLE;
+   DMA_HandleStruct_CC2.Init.Direction             = DMA_MEMORY_TO_PERIPH;
+   DMA_HandleStruct_CC2.Init.PeriphInc             = DMA_PINC_DISABLE;
    DMA_HandleStruct_CC2.Init.MemInc                = DMA_MINC_DISABLE;
    DMA_HandleStruct_CC2.Init.Mode                  = DMA_NORMAL;
-   DMA_HandleStruct_CC2.Init.PeriphDataAlignment 	= DMA_PDATAALIGN_HALFWORD;
-   DMA_HandleStruct_CC2.Init.MemDataAlignment 		= DMA_MDATAALIGN_HALFWORD;
+   DMA_HandleStruct_CC2.Init.PeriphDataAlignment   = DMA_PDATAALIGN_HALFWORD;
+   DMA_HandleStruct_CC2.Init.MemDataAlignment      = DMA_MDATAALIGN_HALFWORD;
    DMA_HandleStruct_CC2.Init.Priority              = DMA_PRIORITY_HIGH;
    if(HAL_DMA_Init(&DMA_HandleStruct_CC2) != HAL_OK)
    {
