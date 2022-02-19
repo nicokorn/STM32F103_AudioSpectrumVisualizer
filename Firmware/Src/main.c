@@ -67,7 +67,6 @@
 // for changing effects, uncomment the line below.
 /*#define EFFECT_TOUCH_BUTTON*/  
                                  
-
 /* Private macro -------------------------------------------------------------*/
 
 /* Private variables ---------------------------------------------------------*/

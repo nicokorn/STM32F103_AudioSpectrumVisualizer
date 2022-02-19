@@ -110,7 +110,7 @@ MICROPHONE_StatusTypeDef microphone_init( void )
       return MICROPHONE_ERROR;
    }
    
-   // Timer enable 
+   // timer enable 
    if( HAL_TIM_Base_Start(&TIM_Handle) != HAL_OK )
    {
       return MICROPHONE_ERROR;
